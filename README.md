@@ -1,4 +1,4 @@
-🎙️ # AI Call Analysis & Conversation Intelligence System
+🎙️ #AI Call Analysis & Conversation Intelligence System
 An end-to-end AI-powered call analysis platform built with FastAPI + AWS + Vertex AI, designed to:
 
 🎧 Process audio recordings
