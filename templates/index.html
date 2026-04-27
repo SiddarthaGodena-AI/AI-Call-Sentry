@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Transcript and Evaluation</title>
+    <link rel="icon" href="/static/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .chart-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        canvas {
+            width: 85% !important;
+            height: 85% !important;
+        }
+        #main-content {
+            display: none; /* Hide the main content initially */
+        }
+        #auth-form {
+            display: none; /* Hide the auth form initially */
+            text-align: center;
+            margin-top: 50px;
+        }
+        #auth-form input {
+            margin: 10px;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if the user is already authenticated in this session
+            if (sessionStorage.getItem('isAuthenticated') === 'true') {
+                document.getElementById("main-content").style.display = "block";
+            } else {
+                document.getElementById("auth-form").style.display = "block";
+            }
+        });
+
+        function authenticate(event) {
+            event.preventDefault(); // Prevent form submission
+
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            // Hardcoded usernames and passwords
+            const credentials = [
+                { username: "inoday", password: "inoday@ai" },
+                { username: "dejero", password: "dejero@123" },
+                { username: "dejero_test", password: "demo@test" }
+            ];
+
+            // Check if the entered credentials match any of the hardcoded ones
+            const validUser = credentials.find(cred => cred.username === username && cred.password === password);
+
+            if (validUser) {
+                sessionStorage.setItem('isAuthenticated', 'true'); // Set authenticated flag for this session
+                document.getElementById("auth-form").style.display = "none";
+                document.getElementById("main-content").style.display = "block";
+                document.cookie = `username=${username}; path=/`; // Set cookie with username
+            } else {
+                alert("Invalid credentials. Please try again.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Audio Transcript and Evaluation</h1>
+    </header>
+    <!-- Authentication Form -->
+    <div id="auth-form">
+        <h2>Please Log In</h2>
+        <form onsubmit="authenticate(event)">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </div>
+
+    <div id="main-content">
+        <div class="container">
+            <form id="upload-form" action="/transcribe_and_analyze" method="post" enctype="multipart/form-data">
+                <input type="hidden" id="hidden-username" name="username" value="">
+                <div class="form-group">
+                    <label for="file">Upload Audio File:</label>
+                    <input type="file" id="file" name="file" required>
+                </div>
+                <button type="submit" class="btn" id="transcribe-button">Transcribe</button>
+            </form>
+        <div id="loading-overlay" class="loading-overlay">
+                <div class="loading-icon"></div>
+                <p>Loading... Please wait.</p>
+            </div>
+
+            {% if transcript %}
+            <div class="transcript-section">
+                <h2>Transcript:</h2>
+                <div class="transcript">
+                    <pre>{{ transcript }}</pre>
+                </div>
+                <a href="/chatbot?transcript_file={{ transcript_file }}" class="btn chat-btn">Chat with Transcript</a>
+
+                <h2>Sentiment Analysis:</h2>
+                <div class="sentiment-analysis">
+                    <div class="chart-container">
+                        <div>
+                            <h3>Speaker 0 Sentiments</h3>
+                            <ul>
+                                {% for sentiment in speaker_sentiments.get('spk_0', []) %}
+                                    <li style="color: {{ 'green' if (sentiment['Positive'] * 100) >= 35 else 'red' }}">Positive: {{ (sentiment['Positive'] * 100) | round(2) }}%</li>
+                                    <li style="color: {{ 'green' if (sentiment['Negative'] * 100) >= 35 else 'red' }}">Negative: {{ (sentiment['Negative'] * 100) | round(2) }}%</li>
+                                    <li style="color: {{ 'green' if (sentiment['Neutral'] * 100) >= 35 else 'red' }}">Neutral: {{ (sentiment['Neutral'] * 100) | round(2) }}%</li>
+                                    <li style="color: {{ 'green' if (sentiment['Mixed'] * 100) >= 35 else 'red' }}">Mixed: {{ (sentiment['Mixed'] * 100) | round(2) }}%</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        <canvas id="speaker1Chart"></canvas>
+                    </div>
+
+                    <div class="chart-container" style="margin-top: 20px;">
+                        <div>
+                            <h3>Speaker 1 Sentiments</h3>
+                            <ul>
+                                {% for sentiment in speaker_sentiments.get('spk_1', []) %}
+                                    <li style="color: {{ 'green' if (sentiment['Positive'] * 100) >= 35 else 'red' }}">Positive: {{ (sentiment['Positive'] * 100) | round(2) }}%</li>
+                                    <li style="color: {{ 'green' if (sentiment['Negative'] * 100) >= 35 else 'red' }}">Negative: {{ (sentiment['Negative'] * 100) | round(2) }}%</li>
+                                    <li style="color: {{ 'green' if (sentiment['Neutral'] * 100) >= 35 else 'red' }}">Neutral: {{ (sentiment['Neutral'] * 100) | round(2) }}%</li>
+                                    <li style="color: {{ 'green' if (sentiment['Mixed'] * 100) >= 35 else 'red' }}">Mixed: {{ (sentiment['Mixed'] * 100) | round(2) }}%</li>
+                             {% endfor %}
+                            </ul>
+                        </div>
+                        <canvas id="speaker2Chart"></canvas>
+                    </div>
+                </div>
+
+                <div class="evaluation-section">
+                    <h2>Evaluation Summary</h2>
+                    <form id="evaluation-form" action="/generate" method="post">
+                        <div class="form-group">
+                            <input type="hidden" name="file" value="{{ transcript_file }}">
+                            <input type="hidden" name="model_choice" value="Jamba2">
+                        </div>
+                        <button type="submit" class="btn">Evaluate</button>
+                    </form>
+                    <div id="loading-overlay" class="loading-overlay">
+                        <div class="loading-icon"></div>
+                        <p>Loading... Please wait.</p>
+                    </div>
+                </div>
+                
+                <script>
+                    // Add an event listener to the form to show the loading overlay when submitted
+                    document.getElementById("evaluation-form").addEventListener("submit", function() {
+                        // Show the loading overlay
+                        document.getElementById("loading-overlay").style.display = "block";
+                    });
+                </script>
+                
+                <div class="qna-section">
+                    <h2>Question and Answers</h2>
+                    <form id="qna-form" action="/generate_qna" method="post">
+                        <div class="form-group">
+                            <input type="hidden" name="file" value="{{ transcript_file }}">
+                            <input type="hidden" name="model_choice" value="Jamba2">
+                        </div>
+                        <button type="submit" class="btn">Answers</button>
+                    </form>
+                    <div id="loading-overlay" class="loading-overlay">
+                        <div class="loading-icon"></div>
+                        <p>Loading... Please wait.</p>
+                    </div>
+                </div>
+                
+                <script>
+                    // Add an event listener to the form to show the loading overlay when submitted
+                    document.getElementById("qna-form").addEventListener("submit", function() {
+                        // Show the loading overlay
+                        document.getElementById("loading-overlay").style.display = "block";
+                    });
+                </script>
+                
+                
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Inoday Inc. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('upload-form').addEventListener('submit', function() {
+            document.getElementById('loading-overlay').style.display = 'flex';
+        });
+
+        {% if transcript %}
+        const speaker1Data = {
+            labels: ['Positive', 'Negative', 'Neutral', 'Mixed'],
+            datasets: [{
+                data: [
+                    {{ speaker_sentiments['spk_0'][0]['Positive'] * 100 }},
+                    {{ speaker_sentiments['spk_0'][0]['Negative'] * 100 }},
+                    {{ speaker_sentiments['spk_0'][0]['Neutral'] * 100 }},
+                    {{ speaker_sentiments['spk_0'][0]['Mixed'] * 100 }}
+                ],
+                backgroundColor: ['#4CAF50', '#F44336', '#FFC107', '#9E9E9E']
+            }]
+        };
+
+        const speaker2Data = {
+            labels: ['Positive', 'Negative', 'Neutral', 'Mixed'],
+            datasets: [{
+                data: [
+                    {{ speaker_sentiments['spk_1'][0]['Positive'] * 100 }},
+                    {{ speaker_sentiments['spk_1'][0]['Negative'] * 100 }},
+                    {{ speaker_sentiments['spk_1'][0]['Neutral'] * 100 }},
+                    {{ speaker_sentiments['spk_1'][0]['Mixed'] * 100 }}
+                ],
+                backgroundColor: ['#4CAF50', '#F44336', '#FFC107', '#9E9E9E']
+            }]
+        };
+
+        const ctx1 = document.getElementById('speaker1Chart').getContext('2d');
+        new Chart(ctx1, {
+            type: 'pie',
+            data: speaker1Data,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+            }
+        });
+
+        const ctx2 = document.getElementById('speaker2Chart').getContext('2d');
+        new Chart(ctx2, {
+            type: 'pie',
+            data: speaker2Data,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+            }
+        });
+        {% endif %}
+    </script>
+</body>
+</html>
