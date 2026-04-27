@@ -1,0 +1,382 @@
+import os
+import time
+import json
+import boto3
+from botocore.exceptions import NoCredentialsError
+import requests
+from fastapi import FastAPI, File, UploadFile, Request
+from fastapi.responses import HTMLResponse, JSONResponse
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
+from result import router as result_router
+from pydub import AudioSegment
+from pydub.effects import normalize
+from pydub.silence import split_on_silence
+import numpy as np
+import noisereduce as nr
+from scipy.io import wavfile
+import librosa
+from mangum import Mangum
+import logging
+from logging.handlers import RotatingFileHandler
+from apscheduler.schedulers.background import BackgroundScheduler
+import atexit
+
+app = FastAPI()
+#handler = Mangum(app)
+
+# Serve static files
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
+# Templates
+templates = Jinja2Templates(directory="templates")
+
+# Define the path for the log file
+log_directory = 'uploads'
+log_file = os.path.join(log_directory, 'logs.txt')
+
+
+# Ensure the log directory exists
+os.makedirs(log_directory, exist_ok=True)
+
+# Configure logging
+logger = logging.getLogger('my_logger')
+logger.setLevel(logging.INFO)
+
+# Configure RotatingFileHandler
+file_handler = RotatingFileHandler(log_file, maxBytes=5*1024*1024, backupCount=5)
+file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(file_formatter)
+
+# Add the file handler to the logger
+logger.addHandler(file_handler)
+
+# Configure console handler for debugging
+console_handler = logging.StreamHandler()
+console_handler.setFormatter(file_formatter)
+
+# Add the console handler to the logger
+logger.addHandler(console_handler)
+
+app.include_router(result_router)
+
+def log_user_access(username, endpoint):
+    try:
+        logger.info(f"User '{username}' is accessing the {endpoint} endpoint")
+    except Exception as e:
+        logger.error(f"Logging error: {e}")
+
+def upload_logs_to_s3():
+    s3 = boto3.client('s3')
+    bucket_name = 'inoday-bedrock-chat-pdf'
+    s3_log_file_path = 'logs/logs.txt'  # Path in the S3 bucket
+
+    try:
+        s3.upload_file(log_file, bucket_name, s3_log_file_path)
+        print(f"Successfully uploaded {log_file} to S3 bucket '{bucket_name}'")
+    except FileNotFoundError:
+        print(f"Error: The file {log_file} was not found.")
+    except NoCredentialsError:
+        print("Error: AWS credentials not available.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+def scheduled_log_upload():
+    upload_logs_to_s3()
+
+# Setup scheduler
+scheduler = BackgroundScheduler()
+scheduler.add_job(scheduled_log_upload, 'interval', minutes=5)  # Adjust interval as needed
+scheduler.start()
+
+# Ensure to shut down the scheduler when your app exits
+atexit.register(lambda: scheduler.shutdown())
+
+# Test logging function
+def test_logging():
+    try:
+        logger.info("Test log entry")
+    except Exception as e:
+        logger.error(f"Error writing test log entry: {e}")
+
+# Test logging when the script is run directly
+if __name__ == "__main__":
+    test_logging()
+
+def upload_to_s3(local_file_path, bucket_name, s3_file_path):
+    s3 = boto3.client('s3')
+    s3.upload_file(local_file_path, bucket_name, s3_file_path)
+    return f"s3://{bucket_name}/{s3_file_path}"
+
+def reduce_noise(audio_segment):
+    # Convert AudioSegment to raw audio data
+    audio_data = np.array(audio_segment.get_array_of_samples())
+    sample_rate = audio_segment.frame_rate
+    
+    # Perform noise reduction
+    reduced_noise_data = nr.reduce_noise(y=audio_data, sr=sample_rate)
+    
+    # Convert back to AudioSegment
+    reduced_noise_audio = AudioSegment(
+        reduced_noise_data.tobytes(), 
+        frame_rate=sample_rate,
+        sample_width=audio_segment.sample_width, 
+        channels=audio_segment.channels
+    )
+    
+    return reduced_noise_audio
+
+def normalize_audio(audio_segment):
+    return normalize(audio_segment)
+
+def segment_audio(audio_segment, min_silence_len=500, silence_thresh=-40):
+    """
+    Improved audio segmentation with finer control over silence detection.
+    - min_silence_len: Duration of silence in ms to consider it as a segment.
+    - silence_thresh: Silence threshold in dBFS.
+    """
+    return split_on_silence(
+        audio_segment, 
+        min_silence_len=min_silence_len, 
+        silence_thresh=silence_thresh,
+        keep_silence=200  # Retain a bit of silence for smoother transitions
+    )
+
+def process_audio(file_path):
+    audio = AudioSegment.from_file(file_path)
+
+    # Reduce noise
+    audio = reduce_noise(audio)
+
+    # Normalize audio
+    audio = normalize_audio(audio)
+
+    # Segment audio
+    segments = segment_audio(audio)
+
+    # Save segments to temporary files
+    segment_files = []
+    for i, segment in enumerate(segments):
+        segment_file = f"temp_segment_{i}.mp3"
+        segment.export(segment_file, format="mp3")
+        segment_files.append(segment_file)
+
+    return segment_files
+
+def transcribe_audio(local_file_path, bucket_name):
+    transcribe = boto3.client('transcribe')
+    
+    job_name = f"{os.path.basename(local_file_path).split('.')[0]}-{int(time.time())}"
+    s3_file_path = job_name + os.path.splitext(local_file_path)[1]
+    job_uri = upload_to_s3(local_file_path, bucket_name, s3_file_path)
+
+    transcribe.start_transcription_job(
+        TranscriptionJobName=job_name,
+        Media={'MediaFileUri': job_uri},
+        MediaFormat='mp3',
+        LanguageCode='en-US',
+        Settings={'ShowSpeakerLabels': True, 'MaxSpeakerLabels': 2}
+    )
+
+    while True:
+        status = transcribe.get_transcription_job(TranscriptionJobName=job_name)
+        if status['TranscriptionJob']['TranscriptionJobStatus'] in ['COMPLETED', 'FAILED']:
+            break
+        time.sleep(10)
+    
+    if status['TranscriptionJob']['TranscriptionJobStatus'] == 'COMPLETED':
+        response = transcribe.get_transcription_job(TranscriptionJobName=job_name)
+        transcript_url = response['TranscriptionJob']['Transcript']['TranscriptFileUri']
+        transcript = json.loads(requests.get(transcript_url).text)
+        results = transcript['results']
+        return results
+    
+    return None
+
+def chunk_text(text, max_bytes):
+    chunks = []
+    current_chunk = ""
+    current_chunk_bytes = 0
+    
+    words = text.split()
+    for word in words:
+        word_bytes = len(word.encode('utf-8')) + 1
+        
+        if current_chunk_bytes + word_bytes > max_bytes:
+            chunks.append(current_chunk.strip())
+            current_chunk = ""
+            current_chunk_bytes = 0
+        
+        current_chunk += word + " "
+        current_chunk_bytes += word_bytes
+    
+    if current_chunk:
+        chunks.append(current_chunk.strip())
+    
+    return chunks
+
+def analyze_transcript_chunks_detailed(chunks):
+    comprehend = boto3.client('comprehend')
+    detailed_sentiments = []
+    
+    for chunk in chunks:
+        response = comprehend.detect_sentiment(
+            Text=chunk,
+            LanguageCode='en'
+        )
+        detailed_sentiments.append(response['Sentiment'])
+    
+    return detailed_sentiments
+
+def analyze_sentiment_per_speaker(transcript_results):
+    comprehend = boto3.client('comprehend')
+    speaker_texts = {}
+    
+    for item in transcript_results['items']:
+        if item['type'] == 'pronunciation':
+            speaker_label = item['speaker_label']
+            word = item['alternatives'][0]['content']
+
+            if speaker_label not in speaker_texts:
+                speaker_texts[speaker_label] = ""
+            
+            speaker_texts[speaker_label] += word + " "
+    
+    speaker_sentiments = {}
+    
+    for speaker, text in speaker_texts.items():
+        chunks = chunk_text(text, max_bytes=4500)
+        sentiment_scores = []
+        for chunk in chunks:
+            response = comprehend.detect_sentiment(
+                Text=chunk,
+                LanguageCode='en'
+            )
+            sentiment_scores.append(response['SentimentScore'])
+
+        aggregated_scores = {
+            'Positive': sum(score['Positive'] for score in sentiment_scores) / len(sentiment_scores),
+            'Negative': sum(score['Negative'] for score in sentiment_scores) / len(sentiment_scores),
+            'Neutral': sum(score['Neutral'] for score in sentiment_scores) / len(sentiment_scores),
+            'Mixed': sum(score['Mixed'] for score in sentiment_scores) / len(sentiment_scores)
+        }
+        speaker_sentiments[speaker] = [aggregated_scores]
+    
+    return speaker_sentiments
+
+def rate_conversation(sentiments):
+    sentiment_counts = {'POSITIVE': 0, 'MIXED': 0, 'NEGATIVE': 0, 'NEUTRAL': 0}
+    
+    for sentiment in sentiments:
+        sentiment_counts[sentiment] += 1
+    
+    max_sentiment = max(sentiment_counts, key=sentiment_counts.get)
+    
+    if max_sentiment == 'POSITIVE':
+        rating = 5
+    elif max_sentiment == 'MIXED':
+        rating = 3
+    elif max_sentiment == 'NEGATIVE':
+        rating = 1
+    else:
+        rating = 2  # NEUTRAL
+    
+    return rating
+
+def format_transcript(transcript_results):
+    speaker_map = {}
+    formatted_transcript = ""
+    current_speaker = None
+    current_paragraph = []
+
+    for item in transcript_results['items']:
+        if item['type'] == 'pronunciation':
+            speaker_label = item['speaker_label']
+            word = item['alternatives'][0]['content']
+
+            if speaker_label not in speaker_map:
+                speaker_map[speaker_label] = speaker_label
+            
+            if speaker_label != current_speaker:
+                if current_speaker is not None:
+                    formatted_transcript += f"{speaker_map[current_speaker]}: {' '.join(current_paragraph)}\n\n"
+                current_speaker = speaker_label
+                current_paragraph = [word]
+            else:
+                current_paragraph.append(word)
+    
+    if current_paragraph:
+        formatted_transcript += f"{speaker_map[current_speaker]}: {' '.join(current_paragraph)}\n\n"
+
+    return formatted_transcript
+
+def save_transcript(transcript_text, filename):
+    output_dir = "transcripts"
+    os.makedirs(output_dir, exist_ok=True)
+    file_path = os.path.join(output_dir, filename)
+    
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write(transcript_text)
+    
+    return file_path
+
+@app.get("/", response_class=HTMLResponse)
+def get_form(request: Request):
+    return templates.TemplateResponse("index.html", {"request": request})
+
+@app.post("/transcribe_and_analyze")
+async def transcribe_and_analyze(request: Request, file: UploadFile = File(...)):
+    # Retrieve the username from cookies
+    username = request.cookies.get('username', 'Unknown')
+
+    # Log the username
+    logger.info(f"User '{username}' is accessing the /transcribe_and_analyze endpoint")
+
+    local_file_path = os.path.join("uploads", file.filename)
+    bucket_name = "inoday-bedrock-chat-pdf"# this is the s3 bucket'
+
+    os.makedirs("uploads", exist_ok=True)
+
+    with open(local_file_path, "wb") as f:
+        f.write(await file.read())
+
+    transcript_results = transcribe_audio(local_file_path, bucket_name)
+    
+    if transcript_results:
+        formatted_transcript = format_transcript(transcript_results)
+        transcript_filename = f"{os.path.splitext(file.filename)[0]}.txt"
+        transcript_file_path = save_transcript(formatted_transcript, transcript_filename)
+
+        transcript_text = ' '.join(item['alternatives'][0]['content'] for item in transcript_results['items'] if item['type'] == 'pronunciation')
+        chunks = chunk_text(transcript_text, max_bytes=4500)
+        sentiments = analyze_transcript_chunks_detailed(chunks)
+        rating = rate_conversation(sentiments)
+
+        speaker_sentiments = analyze_sentiment_per_speaker(transcript_results)
+        
+        return templates.TemplateResponse("index.html", {
+            "request": request,
+            "transcript": formatted_transcript,
+            "transcript_file": transcript_filename,
+            "conversation_rating": rating,
+            "speaker_sentiments": speaker_sentiments
+        })
+    
+    return JSONResponse(content={"error": "Transcription failed"}, status_code=500)
+
+if __name__ == "__main__":
+    scheduler = BackgroundScheduler()
+    scheduler.add_job(scheduled_log_upload, 'interval', minutes=5)  # Adjust interval as needed
+    scheduler.start()
+    
+    # Add test logging
+    log_user_access("test_user", "/test-endpoint")
+
+    # Keep the script running to test scheduler
+    import time
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        scheduler.shutdown()
+
