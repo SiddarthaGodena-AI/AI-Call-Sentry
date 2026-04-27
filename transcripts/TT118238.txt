@@ -1,0 +1,96 @@
+spk_0: Teacher sportmano speaking
+
+spk_1: Hey this is Jimmy from WPIX
+
+spk_0: Hey Jimmy how may I help you
+
+spk_1: Uh I'm good I have a deer here that we were having some issues with It wouldn't power on or off I was getting the blue flash flashing light on the power button even when nothing was plugged into it Uh you know as far as power goes when the you know um but I left it charging All day yesterday and it did eventually turn on at the end of the day but it came up with some money it was powering up I did notice on the screen at one point it flashed something about a CMOs error So I was thinking maybe you guys could go in and check the logs and powering it up now
+
+spk_0: Uh sea moss check some error you mean OK
+
+spk_1: And I assume you need the serial number
+
+spk_0: Uh yes I do
+
+spk_1: OK it's 520-098-6
+
+spk_0: 520098-6
+
+spk_1: Correct Just powering up now but you know when it's fully powered up OK So you can go in and pull up logs and
+
+spk_0: Uh I probably won't need to pull up the logs Uh if you see the CMOSs check some matter I know what the problem is We have to replace the CMOS battery on it
+
+spk_1: So we have to send it in
+
+spk_0: Uh yes
+
+spk_1: But even though we only did it the one time and it's currently working now
+
+spk_0: Uh yes it may cause more problems in the future so uh Yes Uh I would recommend sending it in for there and Uh Let me check the serial number real quick It should still be under warranty
+
+spk_1: Yeah
+
+spk_0: Yes yeah it is under warranty so uh I'm going to Check with my repair technician real quick
+
+spk_1: Uh so
+
+spk_0: Jimmy can you hear me
+
+spk_1: Yeah I'm here OK Yeah
+
+spk_0: Yeah it's already on the latest software version so I'm gonna create a ticket real quick
+
+spk_1: Uh-huh Are you guys uh just gonna replace it with the remanufactured unit or
+
+spk_0: yeah so most likely so if we have to create create an RMA then yeah we will replace it uh but uh I'm checking with my repair technician that if there's something to worry about Uh regarding that Simon set So yeah
+
+spk_1: like I said it popped up that it was almost like I had a charging all day because it seemed like the battery was dead when I powered it back up it powered up at about 90% battery Um so it wasn't even a full charge yet And it gave that error I shut it down and restarted it several times and it didn't give the error after that just that one time
+
+spk_0: Oh OK yeah then it might not be a problem Yeah internal battery is working properly Uh CMOS battery generally you know uh maintains the system clock when the unit is is is off like powered off So that's how it keeps the the the time right Yeah
+
+spk_1: I have a feeling the battery completely died in this thing But still like to check
+
+spk_0: It could be yeah But other than that so it's on the latest version and uh as you said uh uh you you restarted it multiple times and it powered on without any problems so It seems to be good for now but I'm still checking with the repair technician Uh I will let you know what uh she suggests and we can go from there
+
+spk_1: Sounds good
+
+spk_0: Right and I have your email address Jimmy Montalto@ fix11.com
+
+spk_1: Yeah um If can I add it can we add a second email address to that in case it does have to get sent in like because I'm gonna uh be out for a while before it comes back Mhm You want it now
+
+spk_0: Uh yes please
+
+spk_1: So what's your email address And we'll be here until then Uh you can put it you can send it to P F L E I S H E R at PIX 11.com
+
+spk_0: Oh I I completely lost it one more time
+
+spk_1: please How about send it to me and I'm gonna respond back um with with yeah with his with him added
+
+spk_0: OK so you might have uh already received the email Jimmy OK
+
+spk_1: let me take a look OK I have it here Alright I'm gonna respond back I'm just gonna uh reply back with um With his email address also on there
+
+spk_0: All right sounds good
+
+spk_1: Hold on a second Alright I just responded uh and I see him on the email And on the response so hopefully you get something
+
+spk_0: Sure I I just got a reply from uh my repair technician She said we we do have a patch for that and we can uh fix it remotely so we don't have to bring it in OK So yeah so uh uh so once I have the instructions I will do that Can you leave this unit on for me for some time Yeah
+
+spk_1: I have it plugged into AC power so just let me know when you're done with it
+
+spk_0: Uh sure I will send you an email once I'm done with it
+
+spk_1: All right sounds good
+
+spk_0: Alright thank you bye
+
+spk_1: bye Alright and uh yeah just put um use me and him for for this uh repair And please keep this email on record
+
+spk_0: Uh yes I will
+
+spk_1: Thank you
+
+spk_0: Yeah no problem Thank you bye bye
+
+spk_1: Bye
+

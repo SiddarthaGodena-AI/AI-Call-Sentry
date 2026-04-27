@@ -1,0 +1,80 @@
+spk_0: George Port Marlo speaking
+
+spk_1: Oh hi This is Darryl in Regina How are you
+
+spk_0: I'm good there How may I help you
+
+spk_1: I'm just trying to troubleshoot a situation here Uh this is a backup feed Uh we're trying to get a Macbook over at a radio station uh uh get a solid feed from that to our Deger receiver Um but I'm just having some troubles with that and that's the reason it says there's an incompatible output in the video format One on one Uh I know the camera camera source at the far end is uh 1080 I 5994 So I'm just trying to make sense of that
+
+spk_0: Uh sure Can you give me the serial number of the the Macbook app
+
+spk_1: Ok I believe it is 2380273
+
+spk_0: 0273
+
+spk_1: Now it says it's ready I'm looking at the uh sources here
+
+spk_0: Ok Uh I'll just take a look just give me a second
+
+spk_1: and it's assigned to Reg de Giro re 11
+
+spk_0: Ok Ok It must be a the resolution or the framerate mismatch between the output and the transmitter Let me check it
+
+spk_1: Ok thank you Now admittedly it is getting to be a fairly old Macbook Pro and that's probably old software But um we haven't been using it on a regular basis for quite some time I think we do the occasional strolling forward But
+
+spk_0: ok Yeah no worries Ok So the output is set on 1920 by 1080 I 5990 four
+
+spk_1: Yeah Ok Yeah of course That's our entire operation here That's what we run Yeah
+
+spk_0: And are you feeding the same source 5994
+
+spk_1: Uh yeah I I I'm not at that remote site but I've asked someone there to check and they have firm that that is running the 1080 I um um 5994
+
+spk_0: because error 101 always uh show when there's a uh the you know the format mismatch between the transmitter and the outlook So it's the it's about the video format Uh
+
+spk_1: can you tell me what the uh receiving the Macbook uh has at its input Yeah I shouldn't say receiving the source the source Macbook which is the transmitter
+
+spk_0: Unfortunately I cannot see it in control Uh I will have to log into the Macbook for that Uh
+
+spk_1: oh you yeah we're we're not live or anything So if you care to you can do that
+
+spk_0: I mean I I won't be able to someone will have to let me it's it's your Macbook right So I don't have access to it
+
+spk_1: No Ok I thought maybe uh you could tunnel into the uh
+
+spk_0: if it was if it was a physical digital device then I could have team uh team viewer but not the not the Macbook It's uh someone's personal computer
+
+spk_1: Ok Well I have a call I have a colleague situated uh near that Macbook Uh is there something I could ask him to do then or uh to to permit that
+
+spk_0: Uh I mean if if if you want like they they can simply check what format uh I is coming into it or if they if if they can I can uh you know if they can provide me the team your ID uh I can log in to the Macbook but just uh keep in mind like we use team wear 12 so they will have to install team wear version 12 Uh No
+
+spk_1: that so it doesn't work with older versions
+
+spk_0: So basically what we have to do is uh either change the resolution on the output or So basically we have to match the output uh uh format I mean we have to match the video format uh from the transmitter to the output so we can change it on the transmitter or we can change it on the output
+
+spk_1: right And the interesting thing is uh and this uh they come up a few miles away from where this stuff is But uh like I say my colleague has confirmed that the camera at that end is out uh is feeding 1080 I 59 Um So I'm not sure why it's not working
+
+spk_0: Uh Is the is it feeding NTSC Yeah Uh I think there's a setting specifically where we can turn uh NTSE Uh I mean select either NTSE or Paul So unless something like that is selected Uh
+
+spk_1: Yeah Well the the signal is coming in on uh HTSD I OK Yeah And then there's either an a uh some sort of an interface device there that's uh getting the video into the Macbook Pro
+
+spk_0: Got it
+
+spk_1: Ok
+
+spk_0: Uh Unfortunately I don't have much visibility into it
+
+spk_1: Ok So yeah your advice would be here to uh confirm that we're actually uh encoding at that end Uh 1080 I 5994
+
+spk_0: That's right So on the software itself on the Macbook it will show you what uh the input resolution the software is detecting So uh if you cannot change on the transmitter side it's really easy to change the output uh resolution to match it with the transmitter Uh If you want I can guide you through that
+
+spk_1: right But then we'd uh yeah we have to run that through another device here then to get it back to what we normally operate with with with which is 1080 I 5994 So Ok Well no thanks for that Uh I may call back Um Yeah and I will I'll contact my colleague there talk to him on the phone see what we can figure out Um maybe things aren't wired up there the way that I expect that they are So
+
+spk_0: sounds good Alright let me know if you run into any issues here
+
+spk_1: Sure I will do that Thank you very much
+
+spk_0: No problem Thank you Bye bye
+
+spk_1: bye
+

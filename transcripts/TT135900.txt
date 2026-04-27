@@ -1,0 +1,64 @@
+spk_0: Typical job support My name is Oscar How may I help you
+
+spk_1: Hey Oscar it's Gary from Global here
+
+spk_0: Hi Gary how may I help you
+
+spk_1: Uh I've got the uh Degi angle uh 265 And what's happening is uh we've called this in our earlier today and we tried to do some of the uh changes that uh was uh uh was asked to do like uh taking uh using a different video cable using a uh taking out any joints or any elbows or anything like that and just go directly into into the uh de Jro from the source to the Deger So we've done that and we're still getting some drop outs now This is so this is new This is something that I've never seen before was at first the Ethernet port wasn't showing on our connection data on the digi control OK We had only the cellular networks which was Rogers Bell Bell and tell us So we had those four I never saw any drop outs during that time So it was pretty solid Then we said then I asked and well was there anything else that you had plugged in there He says I had the Ethernet port right And I said OK so I said OK plug it in Let's just see what happens right So he plugged it in We saw that OK We saw the percentage start coming up and then after that that's when we started seeing the poor network and then we start seeing drop outs and now we're consist now what I told them to do was stop the stream and restart the stream and the Ethernet uh connection data is still on there on our screen and it's we're still getting those drop outs up to Now
+
+spk_0: that seems strange Ok What's the serial number for the device
+
+spk_1: Uh serial number is what was the serial number Give me a second here Put it here Uh 5260 529
+
+spk_0: 5260529 Ok let me find that ticket
+
+spk_1: Yeah it should be 135900
+
+spk_0: Ok Yeah actually right Yeah I spoke with Ashley I I actually spoke with her recently
+
+spk_1: You spoke with her Ok good good I she didn't tell me who who she spoke to it
+
+spk_0: Ok let me put that angle and control
+
+spk_1: Yeah you can see it now Yeah you'll see it that there's there's blips here and there
+
+spk_0: and when you see blips you see black on your side right Or or what do you see
+
+spk_1: Yeah it's what we see is a drop out and then a red and then on the de Giro itself sometimes the poor network comes up So the warning of poor network comes up on the digi side
+
+spk_0: Now does it show black on the preview on the preview at any point So when when the he
+
+spk_1: was yeah he's been playing clips out of it I said yeah just as long as it's a steady stream and then we'll watch here and yeah it it clips whether it's a clip whether it's a uh uh the camera itself it doesn't matter
+
+spk_0: Ok Yeah one thing that we should try I was gonna say one thing that we should try to do it the the angle does not have the latest version of the software Do you know if if he needs to if it's available for about uh it's at least 30 30 minutes or so
+
+spk_1: Yeah I can give him a call I could give him a call and see if uh
+
+spk_0: because if it's available for uh I say I say an hour just in case the transfer is slow But if if if he doesn't need to use it for about an hour I'll update it and I'll I'll check the configuration just to see
+
+spk_1: if uh it's 530 It's 530 now I think you can But let me let me get a hold of him Let me give him a question Hold stand by All right Thank you Hey Jonathan Sorry I I saw you called me but I was on the phone with uh j so I'm on the phone with them We're going to try and do is it possible to do a a firmware update on that device since you have it up Yeah you're not gonna use it for a while right No Ok Yeah Yeah Yeah Yeah Do do alternative for now I guess because it is dropping out and we're gonna try this Uh yeah we're we're gonna try and uh do some firmware updates so leave it on leave it on and uh if if possible I'll give you a shout if we need to reboot it or anything Ok Alright Thank you Yeah Ok Ok Yeah just leave the uh keep that keep that there for now and then we'll uh let you know Ok Ok Thank you Bye Hi Oscar is a green light for you
+
+spk_0: Ok It's still streaming So is it safe to stop the stream now Y
+
+spk_1: you can stop the stream
+
+spk_0: Ok Let me go to remote control and stop it now
+
+spk_1: Uh hold that do that for you I'll go here
+
+spk_0: So for the test that yesterday he was playing a clip from the camera right
+
+spk_1: He was playing a clip and then he he at the beginning of that we had him put up for 10 minutes just his camera and then that's when uh we also saw it there and I said well just wait and then we saw another drop after that So we we I waited a few uh a few minutes first before I kind of started saying well ok there's a that that's gonna be a problem
+
+spk_0: Ok Right So you saw you saw with the live shot and then you also saw with a clip right
+
+spk_1: With the clip Yeah it didn't matter which which one So it was either or
+
+spk_0: Ok All right Let me stop the stream though then Ok Gary So yeah so let me let me up I was gonna say let me update it and then once it's done I'll email you so they they they can they can test again and let's see if that uh that resolves the issue
+
+spk_1: Ok Sounds good Thank you very much All right
+
+spk_0: Thank you guys
+
+spk_1: Alright Take care Bye
+

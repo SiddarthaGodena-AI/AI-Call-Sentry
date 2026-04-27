@@ -1,0 +1,300 @@
+spk_0: Niro this is James How may I help you
+
+spk_1: Hi James my name is Andy I work for WTOL in Toledo Ohio How are
+
+spk_0: you I'm good How about yourself
+
+spk_1: Not too bad Hey I'm calling for two reasons One apparently none of our backpacks uh IP audio is passing through and I was wondering if there was like a configuration change that needs to be made
+
+spk_0: Uh the backpack what is not
+
+spk_1: The IFP is not passing through it we just get static
+
+spk_0: OK And what's the serial number for that unit
+
+spk_1: Uh I don't know they're not in front of me Um All all of them are having this issue so I didn't know if it's like if you could look up WTOL and they all pop up or
+
+spk_0: no no I I specifically have to have the serial number to go into them
+
+spk_1: Well crap I tell you what um If you could yeah alright well uh uh one of my guys is gonna grab him real quick and I guess while he's doing that my other thing is to um we would like them also to be configured to work with Starlink
+
+spk_0: OK we can do that
+
+spk_1: OK
+
+spk_0: Right while he's doing that let me go ahead and get a trouble ticket started for you Alright and I got an email address of A B A L A S at WTOL.com
+
+spk_1: That is correct
+
+spk_0: And contact number 419-248-11812
+
+spk_1: Yes that is correct thank you OK All right let me see here Mm Mhm Does it have to power down to get the serial number or is it on the
+
+spk_0: side It may be on the side it should start with a 5
+
+spk_1: So Uh would it be 52001997
+
+spk_0: Yep that sounds about right Yeah this one OK yeah that one will have to be powered on for us to Check anything So whenever you can OK
+
+spk_1: I
+
+spk_0: just it up OK Give it a minute here Um All right there we go
+
+spk_1: OK You guys get
+
+spk_0: And you said there was another unit as well
+
+spk_1: We have um two other units but I don't have those I guess in front of they're out So Yeah
+
+spk_0: So when you have something running through it and you're playing uh just a video or whatever the case you're not hearing anything you're only getting static
+
+spk_1: Uh we hear video going out but we can't hear uh IFP from the station level coming back to it So no program audio for the talent or anything like that
+
+spk_0: OK Let's go in here That's my mouth not showing OK so your la is preset Fixed Was the input not recording OK so it's set for intercom Think it should be prompt audio I'm not 100% sure Do you guys normally always have it set for intercom
+
+spk_1: That's a good question I don't know I've never actually used one of these um
+
+spk_0: Yeah cause it's normally not set for whichever I mean
+
+spk_1: would then be
+
+spk_0: Uh So if you go into what is it It's just there operate Mm I was literally just there and forgot where I was You It Can you run something through it so we can test the levels because I'm not I I can't really Check anything Without anything going
+
+spk_1: No Oh you just wanna hook a yeah OK uh yeah I can get one OK well I just figure we're gonna get a camera OK Uh Yeah uh Michelle's off I grab her here OK perfect thank you
+
+spk_0: OK
+
+spk_1: Sorry about this I'm not totally prepared
+
+spk_0: No you're you're fine It's been a slow day so you're you're fine
+
+spk_1: My boss that uh he can't confirm that audio is making it to the server
+
+spk_0: OK
+
+spk_1: Uh
+
+spk_0: it's a good thing
+
+spk_1: OK I just you just want the shotgun right Yeah yeah Alright You should see my messy desk
+
+spk_0: OK I see that uh let's see Alright
+
+spk_1: Hi Joe Hi Paul how are you sir Good OK
+
+spk_0: So it's peaking there But I'm not hearing anything
+
+spk_1: Let me uh on the line because they have to stop it They're called the audio room yeah that's what I was good Do you want something online Yeah They had music coming in before I I couldn't hear it Hey Marcus would you loop an audio part through a control We're trying to get audio online to test out an IMB issue with uh the jaros If you wouldn't mind just playing the card and keeping it up I mean as as close as you can to the 4 o'clock show before you gotta get your mic checks and everything and you may wanna kill it to the studio they don't actually hear it but but Andy wants it um so you have it Thank you sir Yeah Mark just split them up OK Alright our audio guy said he patched something uh Into it so we should be getting some OK They come from one side I I've been a lot of time since I've used it so I couldn't tell you for sure but it should be uh air audio and then the producer should be able to view them also OK Yeah you should hear that That's right here Alright And they got remote control of it yeah I just muted it It still go OK thank you yeah Yeah you got your battery on
+
+spk_0: OK so turn video audio is on rather that's kind of what we're looking for right now
+
+spk_1: Oh
+
+spk_0: Hm So you guys initially had it on Intercom And I'm assuming You were they were able to hear something Prior to that
+
+spk_1: I'm sorry
+
+spk_0: I'm just kind of going through some things here so on intercom I'm not hearing anything I don't know if you guys can hear anything
+
+spk_1: Yeah we can't
+
+spk_0: OK So the audio is on for return video
+
+spk_1: Mhm You know
+
+spk_0: Now are you guys still hearing the static at all
+
+spk_1: I do hear static yes I use that every day so I know yeah In the boxes Supposed to be much more mini more drop marks
+
+spk_0: Yeah cuz I know the level should be peaking and it's not
+
+spk_1: Uh
+
+spk_0: Not
+
+spk_1: OK I don't know
+
+spk_0: And you're still hearing the static right
+
+spk_1: Yes
+
+spk_0: OK And even with the audio comes off still getting it Prompt audio you're still hearing you're not hearing anything of what the other guys playing
+
+spk_1: No he's playing the music OK Yep
+
+spk_0: So prompt audio
+
+spk_1: and
+
+spk_0: intercom
+
+spk_1: Absolutely let's go let's go I number 2 the bus Michelle Alley and I just grabbed it Hunter was thinking about taking it when I walked down there so the bag and everything's still in the gear room and and just battery seats Thanks I say that because I gotta head down the hall in a minute I wonder why he was gonna take it He was doing a try this and when he does that he likes to take a camera and even considering that one and I said Well Andy needs one He goes Oh we'll take it Don't get it But that's where that came from I just want you to know where I got it
+
+spk_0: OK let me reach out to one of my uh leads See if I can get a little bit more just on this so just bear with me
+
+spk_1: No problem thank you So Well
+
+spk_0: OK guys now I am seeing what the intercom is fine Uh could be a cable or it could be the The server out now I'm looking at 41792 Which is what this one is linked
+
+spk_1: That
+
+spk_0: sounds
+
+spk_1: right
+
+spk_0: OK let's see It OK Yeah I'm seeing that now the stream is good So basically you should be hearing that guy speaking On your end
+
+spk_1: Uh
+
+spk_0: that's clip
+
+spk_1: OK Is this our air right there handy so we'll be in the show in a couple seconds Yes Yes I think it's gonna fall off eventually here It'll grow back mine is too when I Got it ripped off by a saw blade I had a round piece of UC pipe I was trying to cut a pipe for a toilet Uh and grabbed my thumb and ripped it right off Yeah So I have skin here so 2 years Yeah grow that fast
+
+spk_0: yeah OK so it's only assigned to that one Not sure why that's not 520-1665 And that is assigned to 565201665
+
+spk_1: Just see better No no no those are better The be Oh the big the bigger one Mhm
+
+spk_0: OK uh Unhook the cable From the camera to the deiro because I can hear you guys but if something is going through the deiro that's supposed to be going to uh the waypoint for what 41792 I should hear it or you guys should hear it actually
+
+spk_1: Yeah we don't hear anything coming out of the server
+
+spk_0: right This is weird Let's see
+
+spk_1: If it's like this I think it's cable in the back of the camera You should be able to ensure that my input right through my system together wanna try it 11 of my books Then we should be able to yeah That's
+
+spk_0: It's both the return videos on audio is on
+
+spk_1: And it's
+
+spk_0: on Intercom
+
+spk_1: Channel one you should go here
+
+spk_0: so that's
+
+spk_1: Uh uh shelf Let's seeing one is up So if you're saying if there's anything there you'd be able to hear so I bypassed that I disconnected from the Sure so Oh right it shouldn't it shouldn't matter You you're just hearing the audio
+
+spk_0: right You should just hear the audio regardless
+
+spk_1: coming from it but if you don't hear it then it's still then we bypass the JP box So You're you're going this into here so you should just be hearing the output and right so if we bypass with it and you should still be up here through channel one yeah right so now let's check it if we do this
+
+spk_0: Now this is showing output 2 so is it connected to output 2 on your end We were
+
+spk_1: we were just checking to make sure the headphones worked the cables work So he's he's You heard the shotgun mic when I changed it but we have it setting it in a channel on the camera to see if it's uh the JK box might have been bad but it doesn't work so
+
+spk_0: All right I feel like it's just like a mute button is pushed that needs to be unpushed But that's not it's Yeah it would never be that simple So we got return video and return video was on And the audio for the return video is on as well So why can't we hear anything
+
+spk_1: I know it worked before we're using clips say at least No one was March March or April So I wanna say we used it for the eclipse Because we didn't have enough IBs again for I think so I think we had some of them on That's why I had Terry make up 4 of those cables I was red state
+
+spk_0: Then can you try a different server Instead of the 41792 try another one and see if it comes through on that end
+
+spk_1: I think that's the only server we have Uh if you're talking about another unit now to units
+
+spk_0: OK yeah well server wise yeah I only see 41792
+
+spk_1: Hm
+
+spk_0: OK so it's it's signed That's not the problem Let's try I'm gonna unassign it and then reassign it OK Let's just fine
+
+spk_1: Hm
+
+spk_0: Let me try this other side And let's see if we can assign it to output 3 and see what happens
+
+spk_1: Well
+
+spk_0: It won't go to
+
+spk_1: 3
+
+spk_0: And
+
+spk_1: probably because we have other
+
+spk_0: Yeah well it it on output 3 it has live It shows live but there's nothing on the screen so I was just trying to see
+
+spk_1: Yeah they probably is dropped you probably probably tried to share output 4 no one's in 4 so we only have 3 units and 4 is probably available So 23 so 3
+
+spk_0: and
+
+spk_1: 4 we have that and that
+
+spk_0: So nothing there OK so let's try See what happens OK well they're going away Where'd it go OK so it's not in 2 it's not in 1 5200197
+
+spk_1: OK yeah And in their scheduling out March here OK sure You saw me Doesn't So So we got a practice
+
+spk_0: Well So a lot of assigned to output 4
+
+spk_1: And those are normally our cell phones OK To also be using election night Um Hm And I set up with one of the ring lights with camera mount stuff so they could have the ring light and then you could use that for the to share a 4
+
+spk_0: OK so it looks like there is no I have the audio 4 uh 41 41792
+
+spk_1: Interesting Oh So you're not getting any program audio to it
+
+spk_0: No
+
+spk_1: My boss said There was audio at the input because he tested it with a speaker He goes maybe the car died again
+
+spk_0: Possible but you would have got an error Saying that there was an issue with theB card or you got something that that was like a DXE error or something to that effect And I don't see that Doesn't necessarily mean it's not that couldn't be the case but don't see it currently right Let me try let's see here Refresh this and see OK looks like the feed that was going through I lost where the guy was talking uh video Can somebody play put put that back on
+
+spk_1: Yeah we just went to commercial break We're No there he is Hello Don't worry
+
+spk_0: OK so Oh OK so he was initially on output 2 and now it's showing output 3 But it's saying nothing is assigned And when I drag it nothing is coming Is it possible to do a reboot on that particular server
+
+spk_1: Yeah did you need me to do it or or can you do it
+
+spk_0: remote No you you go ahead and do it
+
+spk_1: Alright I'll be right back We don't have any I well we have Steve I think they're done OK I just asked uh Alexis was there more live shots Alright just restarted it
+
+spk_0: OK And it says the assign output receiver is not responding I guess it's still trying to connect That's
+
+spk_1: the camera off
+
+spk_0: OK so it's back up now OK so that's it To drag this over here So OK so that's on output to There's just no OK so it's up there's just no video On it to see
+
+spk_1: Do you want me to plug the camera back in
+
+spk_0: Yeah let's try that and see what happens
+
+spk_1: Mm
+
+spk_0: OK so we got video And it's on Apple 2 Is it a SD or uh SDR or HDMI cable
+
+spk_1: S SDI
+
+spk_0: OK OK so it's picking up a little bit on
+
+spk_1: 2
+
+spk_0: Audios on intercom OK
+
+spk_1: let's
+
+spk_0: OK that's true Yes
+
+spk_1: So Oh Oh OK Alright I need to take off OK um you just put all this stuff over here Right OK Alright thanks see you OK OK Mhm
+
+spk_0: Still working on it guys just bear with me
+
+spk_1: No problem
+
+spk_0: on your devices According to
+
+spk_1: Mhm
+
+spk_0: Let me do this I know you guys got a lot going on Let me give you guys a call back once we get a little more information on it I don't want that's
+
+spk_1: fine um If uh Even if you update the ticket I can always follow up tomorrow
+
+spk_0: Oh OK OK so you don't you don't need it like right at this moment No no
+
+spk_1: um we're making do with what we can OK but uh We're we're just trying to like get ahead of election night essentially
+
+spk_0: Oh OK OK yeah a lot of well we will yeah a lot of guys will a lot of you guys are doing that So OK let me give you a call back or I'll update the ticket as soon as I have a little bit more information see what's going on and trying to get this rectified for you
+
+spk_1: OK perfect Thank you
+
+spk_0: very much No problem Have a good one Bye bye
+
+spk_1: You too bye bye
+

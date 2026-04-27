@@ -1,0 +1,76 @@
+spk_0: Niro this is James How may I help you
+
+spk_1: Hey James Mark from WPVI how are you doing
+
+spk_0: man I'm good How about yourself
+
+spk_1: I'm well Hey um I've got a new um EO 265 that we just deployed uh about 26 of them and uh this one earlier I let the battery drain out now but this one it would not turn off um I held down the power all day didn't wanna work but yada yada yada so Just trying to figure out whether we uh have you guys send us an advanced exchange on this or there's something you wanna try and do I don't if I guess I could probably try and turn it on now but it was it was locked up card
+
+spk_0: OK let me get here Yes 55261544 OK
+
+spk_1: let's see I I was able to get into it remotely earlier and I I shut it down but it just kind of hung up in a shut down mode for several hours
+
+spk_0: OK no problem Get in here and see what's going on
+
+spk_1: It's off now
+
+spk_0: Oh OK so it is off
+
+spk_1: I I mean it was to a point where it was showing offline and it was just a black screen but still stayed on OK Mhm Uh one thing I'm not sure about is that after we have a meeting about I mean
+
+spk_0: the OK So with it being off it's kinda not a whole lot I can check
+
+spk_1: Yeah I mean I can try and put some power to it and turn it back on but I'm guessing it's gonna get stuck um maybe maybe it won't I'm just kind of you know uh uh anyway let me plug it in I just don't wanna get you know deploy this and then get it again and keep having issues So um just just since the units are you know like I literally deployed them a week a week and a half ago um so let me uh let me get some power to this Alright You want the audio Yeah now it's showing a battery error as well It's got a big red light on the battery OK You should you should you should see it online now Yeah that was that was the first symptom of something It was apparently that battery error was playing Forgot I forgot about that
+
+spk_0: Yeah right now it's
+
+spk_1: it's 0%
+
+spk_0: Uh
+
+spk_1: let's see
+
+spk_0: And it is currently plugged up via the uh DC or AC outlet or whatever the case
+
+spk_1: It's got a battery on it at the moment yeah OK I don't know how good the battery is but it's powering it for the time being
+
+spk_0: OK so yeah that error is just basically the battery is dead and it's running on the internal battery so it just needs to have the uh
+
+spk_1: I mean the battery is dead
+
+spk_0: The internal battery well I'm gonna say it's dead I'm it's doing something I
+
+spk_1: Yeah I think that the only internal battery might have a problem is what I I'm thinking because it was like that with a new battery on too
+
+spk_0: So the other batteries just 0 And you said you it is plugged into the wall or no
+
+spk_1: It it's got an Anton Bauer Gold Mount battery on it right now I mean I can plug the power supply on it if you if you want me to uh
+
+spk_0: yeah let's do that
+
+spk_1: Uh huh Yeah Mm Alright that's an external power supply now 12 120 volts to 12 volt or 15 volt whatever that is
+
+spk_0: OK so that error went away And it's just showing 1% On the uh Anton and it's still at 0 on the plug when it's plugged in but it should start moving here momentarily
+
+spk_1: So um So is this is this gold mountain adapter that the unit came with um Perhaps something's wrong with that
+
+spk_0: I don't wanna say it is Uh I mean it's rare that we have issues with them so I'm not gonna say that that couldn't be the problem but what we would recommend or what I'd recommend is let it charge all the way up being plugged into the wall
+
+spk_1: And
+
+spk_0: then that error should go away Cause the Anton will be will be powered and the unit itself will be fully charged
+
+spk_1: Let me try and shut it down see what happens OK 2 seconds so this is Alright it seems to be working at the moment um I guess if you just wanna you know make a ticket for it or whatever and if it comes up again I'll uh I'll reach out
+
+spk_0: Right I'm doing that right now uh what's your last name Mark
+
+spk_1: Last name is Brett B as in boy R E S S as in Sam
+
+spk_0: Alright I got you right here Email is Mark.res@abc.com Uh right I will get the uh ticket created and get this sent over to you here shortly and I'll get it notated Problem still exists just give us a call with that ticket number
+
+spk_1: Appreciate it
+
+spk_0: No problem thanks for calling
+
+spk_1: Thanks bye bye Mhm
+

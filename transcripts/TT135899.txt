@@ -1,0 +1,58 @@
+spk_0: Technical support my name is Oscar How may I help you
+
+spk_1: Oh good How are
+
+spk_0: you Good thanks How are you How may I help you
+
+spk_1: Good good uh one of our angles uh that we use as a backup just uh give me an error message reboot and select proper boot device or insert booted in selected boot device and press a key
+
+spk_0: OK that sounds like yeah well it sounds like it's not able to read the the disc It sounds like either the disc is disconnected or or it's uh corrupt What what is the serial number for that device
+
+spk_1: Um Bye 100 352 It's uh it's not under care currently Yeah
+
+spk_0: yeah right It'll be right It's an old device 5100352 Is that right
+
+spk_1: Yes OK
+
+spk_0: What what is the exact message that you get again
+
+spk_1: Reboot and select proper boot device or insert rooted in selected root device and strategy
+
+spk_0: Yeah so essentially it's not it's not like I said it's not detecting the uh the uh the the hard disk or the the boot drive So I suspect that either I mean I don't think it's it's I don't think the drive is not connected right it's not not likely unless there was you know unless it got disconnected somehow uh but uh the the device is not able to boot from the drive either because it's not connected or because the uh the operating system is is corrupt
+
+spk_1: OK So what would you suggest we do Right
+
+spk_0: so it's not under care Uh I mean if you want we can uh we can certainly bring it in for repair which would mean that we uh provide a quote for the repair and go from there But that's that's really the the the only option that you have in terms of repair unless you want to open the device and check the the connection but uh you know if you if you open it you need to be extremely careful I recommend
+
+spk_1: All right So so our option is to open the device and see if it's connected
+
+spk_0: Right so essentially the the angle has a um a solid state drive that is connected to the system right So either that drive is not connected to the system or the drive is faulty right So if the driver's fault if you uh if you open the device and uh and the driver is connected to the system then it's fair to assume that uh the uh the driver is faulty So really then the other the other option would be to to send the uh the angle to us for repairs so we can Um give you a quote for the repair
+
+spk_1: Yeah but that's that's gonna take quite some time
+
+spk_0: It will take right it will take some time and it's not it's not something that where we can uh image the drive and then send it to you because it needs to be imaged with the actual device right We can't just image the drive and send it to you We would need to have the device to be able to uh to reimage if if that's what it needs
+
+spk_1: Alright Then just before the elections
+
+spk_0: Yeah I mean it's it's unfortunate right but again it's it's it's essentially it's not finding the the drive or or or the the drive is corrupt Have you has it been used recently or have you just powered it up recently
+
+spk_1: Uh it hasn't it's been used for a couple of months ago They they changed the Uh the batteries inside cause they were uh uh they were dying kind of Uh so I don't know if They might have disconnected something
+
+spk_0: They they maybe yeah which battery do they
+
+spk_1: replace the internal batteries like the
+
+spk_0: the CMOS battery
+
+spk_1: Yes
+
+spk_0: OK I mean if if they did that it's it's possible that they they forgot to connect the uh the solid state drive to the system right So if they opened it recently then I might start there open the device and and and find the uh the solid state drive and see if it is connected to the to the system maybe maybe it's just not connected to the device
+
+spk_1: All right Thank you very much I appreciate it OK
+
+spk_0: thank you Have a good
+
+spk_1: day Bye-bye
+
+spk_0: Bye
+

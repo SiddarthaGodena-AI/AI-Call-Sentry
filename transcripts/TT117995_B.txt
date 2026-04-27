@@ -1,0 +1,30 @@
+spk_0: Did your support This is Priyanka Hi it's Mike calling from Victoria BC I've got a battery warning battery error on my zero Ok Uh Do you have the serial number
+
+spk_1: Yes it is 5260671
+
+spk_0: Just internal battery warning
+
+spk_1: error
+
+spk_0: Ok Let me just take a look
+
+spk_1: Yeah Ok
+
+spk_0: Just loading on my end So just hang on
+
+spk_1: I see
+
+spk_0: Yeah I see the error Um So yeah let me just collect a couple of information which um I need for this um error So was it like did you just turn on the unit right now or was it live Yeah I put I put a battery in and turned it on and that came up and I'm supposed to be going live in 10 minutes Ok Ok And um I mean is the unit in a backpack or in a environment which is like very hot or something It's in the black bag that it came in Ok So you um the vents and everything I mean um the unit has sufficient um like air flow right I mean the vents are not blocking Uh No I don't think so It's just laying on the floor Ok Like it always does I lean it up against the wall with lots of uh space behind it So no airflow issues Ok
+
+spk_1: Mhm Mhm
+
+spk_0: Ok Let me just remote into the unit and I do that
+
+spk_1: Well they oh ok I don't know how I get you Ok I Mhm Ok Like hey did you make it make it easier I think Bye Ok
+
+spk_0: Ok I'm just gonna run some commands over here from my end to try and fix this issue and it will involve a reboot as well So um uh the unit is available right Uh Well I'm supposed to go live in at 1030 local time So in like seven minutes or something Ok Do you have a spare unit on you Uh I I do but I don't think it's um programmed they registered or whatever needs to be done to it Ok Ok Because this may take like some time because if I reboot it um it may take some time to come up So uh can can I can I go live with this error Does it matter It might fix this later Uh You can it it should be ok Um But yeah I mean if if uh just make sure that the battery like it's not getting too hot and stuff there are I mean there are chances that it it can stop the stream but um as far as like consider you will be able to go live but if um you know if it it could like at some point fail
+
+spk_1: Ok
+
+spk_0: I'll let them know Yeah Ok thank you I'll let them know Ok bye Ok Sure
+

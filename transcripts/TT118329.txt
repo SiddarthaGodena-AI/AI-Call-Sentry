@@ -1,0 +1,132 @@
+spk_0: Thanks for your support my name is Oscar how may I help you
+
+spk_1: Hi Oscar my name is Justin I'm calling from WGM How are you doing today Good thanks
+
+spk_0: How are you How may I help you
+
+spk_1: I'm doing all right Um our editors are saying that they're uploading clips into the Diiro app um but they're not ingesting into our Bit Central um creative of the 45 that got uploaded since 4 o'clock this morning only 2 show up um and I was wondering if you could pop in to take a look
+
+spk_0: Sure what is the number for the uh the receiver the serial number
+
+spk_1: Oh good question So receive your number on this one do do S
+
+spk_0: Sorry what was your first name again
+
+spk_1: Justin
+
+spk_0: Justin OK
+
+spk_1: Uh one second here my man
+
+spk_0: And Justin the station is WGN right
+
+spk_1: WGN
+
+spk_0: OK let me let me just go to control and uh take a look at the clips OK So so essentially when you go to clips and control you don't see some of the the ones that were uploaded is that right
+
+spk_1: Yeah only 2 of them
+
+spk_0: OK let me Let me switch to your station and take a look at the clips It's OK if you don't find the uh the receiver I'll just do it by station OK OK so let's see WGN OK so I select the WG and just take let me take a look at the uh clips video And I'll sort by transfer date He was the oldest OK right so for today I see um so if you don't mind just go back to the list of clips that you have just to verify what I see here OK so for today I see uh if you look at the last six digits uh the last one is 1216 23 right
+
+spk_1: 1216 23 correct
+
+spk_0: And the second last 10 1442
+
+spk_1: Yeah that's correct
+
+spk_0: OK OK All right let me make a note So essentially you only see 2 clips but more more than 2 were transferred right
+
+spk_1: Yeah I can get you the clip numbers if you want
+
+spk_0: Uh that's OK actually because I'll um I think I know what's what's causing the issue Let me just uh make a note of these two clips OK so both of these were sent to uh the RX 124 So let me take a look at your receivers OK so the serial number 41783 sorry just how many clips did you say were sent today were transferred
+
+spk_1: I want to say at least 5 since this morning
+
+spk_0: Yeah so so for me to resolve the issue I'll I actually need to restart the service on the on the receiver but I I see that your uh your output RX1 is live right now so you're probably using it right now uh and I I can't restart it unless you um you know it's safe to do it right because it it will interrupt that stream that you're receiving right now to RX01
+
+spk_1: OK
+
+spk_0: if you wanna check
+
+spk_1: OK um let me double check here
+
+spk_0: Yeah because I see that um looking at that so when I go to manage manage manage receivers and I select RX 14 1 to 4 it you'll see on on the outputs below uh RX 01 is live right now I don't know if it's receiving anything useful but but it's it is live right now
+
+spk_1: OK Uh I have so many a couple of editors Uh let me let me go over there and check and I can give you uh uh uh a good number of which are missing Bear with me one moment OK All right take care Thank you for holding Yeah you can go ahead and hit it
+
+spk_0: Yeah she as I was waiting it initially it was the one of the outputs was uh was live but it's not live anymore let me just refresh hold on Yeah all the outputs are idle now but let me connect to the receiver now so 41783 Before I restart the service let me connect to the receiver and take a look at the the clips folder
+
+spk_1: Fantastic It was at least 5 but I do have 1 case that didn't go through and I have the number on it
+
+spk_0: Yeah because looking at so looking at the uh the list of the the clips on the receiver itself uh I only see two for today So for the last two that were received let me see if the numbers match 1216 23 1014 42 yeah so the the only two that I see for today match what we see in control Do you do you have an example of one that was sent today that they they like you know the number for one of them
+
+spk_1: yeah whenever you're ready OK go ahead 112815
+
+spk_0: 112815 And that was transferred today right
+
+spk_1: Yes
+
+spk_0: Yeah so I don't see that one on on the receiver I don't think it was do do you know what the source transferred it do you know the serial number for the source
+
+spk_1: Mm I don't um I know that the editor out in the field go uh they upload it through the app
+
+spk_0: All through the uh the uh the I guess iPhone or Android
+
+spk_1: Yeah I yeah I don't believe uh there isn't an app for the PC right
+
+spk_0: Well there's enough for for Windows but probably probably not using that one because that one also has a return video function So I suspect that you it was a phone maybe you can find it because it maybe it was assigned to a different receiver because on on this receiver that we're talking about um it doesn't it doesn't show the uh the clip maybe let's try to find the source So if you go are you logged into control now
+
+spk_1: Um no I am not
+
+spk_0: Oh you're not OK so you're not looking at the control page now
+
+spk_1: Yeah I can I can jump into it
+
+spk_0: yes if you go to control I'll show you we'll try to find the source see if we can find it Because I don't think that that that clip was transferred at least not to this receiver because it's not listed on in the uh in the folder
+
+spk_1: OK let me see Mhm Control let's see do do do Next Digital control
+
+spk_0: Justin what is your last name
+
+spk_1: A Lamardo it's L I M A R D O Oh it's just a gooey Who I might not have access to the COI I've never logged in Is it just a web page
+
+spk_0: Yeah right it's control.to share.com but we need to have let me see if you're in the system under WGN Yeah
+
+spk_1: I might I might not be Only because I don't think I've ever had to be
+
+spk_0: OK Yeah I don't I don't see you listed there um but it but essentially so essentially what I think may may have happened is that the uh the source like we need to find out what source sent the clip I mean we'll we'll use that one as an example um but do you um do you have someone that can log in that that that is logged into the uh to the site Control.com
+
+spk_1: OK yeah let me let me let me ask the editor because she get they get the email when the editors Upload it from the field let me ask them what what mechanism they use to to upload that and or maybe
+
+spk_0: yeah maybe they know right maybe they know the the the serial number of the source that sent the clip because if they know that then then I can pull it up here
+
+spk_1: Yeah bear with me one moment
+
+spk_0: Alright thank you
+
+spk_1: Alright my friend so yeah the they uploaded through the Deiro device that's actually in in the news trucks Um I don't have the serial for that off the top of my head because I don't know which serials skill which trucks
+
+spk_0: OK so in the in the truck OK let me take a look at the sources So there's a source in the truck OK let's see I take a look at the list of of your sources Yes so essentially what we what we need to do is uh whoever has access to control if you go to manage sources it'll give you a list of all the sources right So essentially on that list you need to identify which one sent the the clip because I I need to I need the serial number does that person that you spoke with do they have access to control
+
+spk_1: Um no they they're just an editor I would have to find who has access to control
+
+spk_0: that So right so it's control I mean I can I can give you some examples of of people that have access So for example actually there are many here but Um Dan Lester for example is one of the people that have that has access to yeah but essentially so anyone who who has access to uh Control Tejero.com when when they go to manage and then they select sources right they'll give you a list of all the sources So basically we need to identify the the uh the serial number for the source that sent the clip because I suspect that that's like that that will show us uh the the assignment I suspect that If the clip was transferred maybe maybe it was only partially transferred and and they're not complete but maybe maybe there was an issue with the transfer itself
+
+spk_1: OK yeah let me I don't think Leer is in but let me get with him later then and I can I can dive into this I appreciate the uh the information on how that works OK
+
+spk_0: if you don't mind just in the meantime let me just create a ticket under your email What is your email address
+
+spk_1: It's gonna be first initial last name so J Lamardo that's J J L I M A R D as in Delta O Yeah At Nexstar.texstar.tv
+
+spk_0: So Jay Laardo at Nexstar.tv right
+
+spk_1: Yes sir
+
+spk_0: OK And the phone number is 773-883-7881 Yes
+
+spk_1: sir
+
+spk_0: OK Justin so in the meantime I'll just uh create the ticket I'll leave it open to allow you to discuss the issue with with them and then let us know if you need anything else
+
+spk_1: All right sounds good I appreciate all your help my friend Alright thank you Take care Bye bye
+

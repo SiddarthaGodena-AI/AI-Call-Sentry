@@ -1,0 +1,64 @@
+spk_0: Did you sport man of speaking
+
+spk_1: Hi my name is Brian I'm with uh KXRM and I have a couple of deerro units here Um I have one deiro unit that gave us like a bio check some error in the field and I'd just like for you guys to connect to us uh connect to the unit maybe give it a health check if that's possible
+
+spk_0: Sure give me the serial number of the unit
+
+spk_1: Uh sure give me one sec here 5200196
+
+spk_0: OK Connecting to the unit right now OK Uh did it give the error just once and then uh
+
+spk_1: yeah when they were in the field I think they just kept they I think they just kept trying to power cycle it over and over so it's got like the AMI sorry American mega trends like logo and then in the bottom left it says warning sea most check some error press F1 escape Dell or escape to enter setup
+
+spk_0: OK There's a Uh fix for that If if it's a if it's a false error then it will be fixed uh with that Uh so basically I will have to update the BIOS and I can remotely but if the error comes again then we will have to bring it in for repair uh I mean we have to replace the CMOS battery in it
+
+spk_1: I have the uh BIOS version If that helps Uh
+
+spk_0: That's fine OK what's the best version
+
+spk_1: Uh it says version 1.10 It's actually 2 versions here There's a version 2.20.1271 and then underneath that it says EBC dash AF50 Fios version 1.10
+
+spk_0: OK I'll check that I'm going to create a ticket real quick
+
+spk_1: Great
+
+spk_0: Uh Brian can you please confirm your email address
+
+spk_1: Sure uh it should be engineering at KXRM.com Or it might be cakes I'm engineering at Nexstar.tv I'm not sure which one y'all have on file for us
+
+spk_0: All right Yeah engineering at KXRM.com Yep
+
+spk_1: perfect
+
+spk_0: OK just give me a second All right uh I just have created a ticket You might have received an email Uh with the ticket number I'm going to update the bias if required and then we'll let you know when it's done
+
+spk_1: Uh now should we do this for both units or like proactively
+
+spk_0: So the units the Jackson
+
+spk_1: No no just this one but I'm saying like shouldn't we do this this update for both if it's
+
+spk_0: it's just for the if there's a check so OK yeah
+
+spk_1: No worries
+
+spk_0: Mhm And do you have any issues with the 2nd unit
+
+spk_1: Not that I know of but then again they don't tell us anything
+
+spk_0: Makes sense Yeah OK I will uh update this one and then we'll get back to you
+
+spk_1: OK sounds good Thank you
+
+spk_0: Please please leave this uh you know running and OK
+
+spk_1: yep it's on it's a power supply and everything so
+
+spk_0: OK
+
+spk_1: All right thank you
+
+spk_0: No problem thank you bye
+
+spk_1: bye bye bye
+

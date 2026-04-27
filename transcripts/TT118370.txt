@@ -1,0 +1,56 @@
+spk_0: Deja support this is Priyanka
+
+spk_1: Hi uh yeah this is Rocky calling from uh KCN PB out in uh central Texas I've got a uh I've got a dezero unit here that um For some reason works with one camera but not another So um I I don't know if I I don't know if there's a Uh a fix for that but this morning uh I went to do a a live shot with uh uh I'm the chief photographer here I went to do a live shot with uh my camera so it's a Sony uh 320 you know full size camera and it works with all of our other deerros uh but this particular deiro when I hooked it up to it I've got no signal going into it I've I've used I've hooked up the HDMI and also the SDI and neither one of them work um But this this deerro unit does work with a smaller um Sony camcorder that my reporter had So that that baffled me so anyway
+
+spk_0: Do you have the serial number of the device
+
+spk_1: Yeah I do Yeah Wait a minute we should I know we have them on every other Is that in the menu setting or do I need to get that from the back of the unit
+
+spk_0: Um if you have the unit physically present it should be on the unit itself It will start with the number 5
+
+spk_1: Yeah hang on it's gonna be Um I'm sure it's in the back of the unit here so I'm gonna need to Pull it out here OK OK I got it serial number 5201125
+
+spk_0: OK let's take a look So has it worked before with the same camera on this unit
+
+spk_1: Uh you know I I I never I'm not sure if I've ever used this particular unit with my camera Uh it's typically assigned to this reporter that works early in the morning um So I I think I feel like maybe I did use it um Last Friday Because I went I did a live shot for her and she had this unit with her so um Feel like this this is the unit that she had now that I think about it I didn't bring one out with me
+
+spk_0: OK just give me a minute
+
+spk_1: Yeah absolutely
+
+spk_0: I can see now a graph generator is that what you
+
+spk_1: Yeah that's me
+
+spk_0: OK so let me just tell you what happened exactly So probably um this camera it probably had a different setting um with the resolution and stuff So what was set actually on this angle was 720p So in future what I generally recommend is if you go to the settings and go to input here um make sure that it's auto So even if you have a different resolution Um it will it'll automatically detect it So this was not on auto and it was on a different resolution and setting as to what you're currently feeding That's why you were not able to see it
+
+spk_1: Oh that's fantastic and then must have been an accident because Probably maybe someone had already would never Yeah she's never fiddled with it before and she didn't know how to do all this so I'm watching you walk through these things here um yeah and it's it's it's updated as much as it needs to be
+
+spk_0: Uh yeah that's what I can see Uh just let me check another driver
+
+spk_1: I just figured I'd check with you on that while we got it
+
+spk_0: yeah Yeah yeah I the software is updated I just wanna do a check on one of the drivers that we have
+
+spk_1: Yeah sure Yeah so Like
+
+spk_0: Yeah the driver is also updated So yeah this unit um software wise it is up to date
+
+spk_1: Excellent well thank you so much obviously you're a big help
+
+spk_0: No worries Rocky just um yeah as I mentioned you can just you know keep that in mind for the future so you know
+
+spk_1: Yeah I I know exactly what to do if I see that happen again I I really appreciate that
+
+spk_0: Yeah no problem at all Have a nice day Alright
+
+spk_1: well thank you you have a great weekend
+
+spk_0: Thank you You too
+
+spk_1: OK bye bye
+
+spk_0: Bye
+
+spk_1: Bye
+

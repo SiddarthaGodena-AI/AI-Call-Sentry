@@ -1,0 +1,46 @@
+spk_0: The sport model speaking
+
+spk_1: Hey this is Rick Stuckey from WMAQ in Chicago How are you
+
+spk_0: I'm good Rich How how may I help you
+
+spk_1: Um so I had an issue where um it seemed like my deerro was nice and stable stable All was good and then all of a sudden it um It it just froze on me um and we've been having this issue um A few times and so I was told to um call with the time that it happened and then you could uh you guys could take a look into it
+
+spk_0: Uh sure Uh do you have the serial number and the estimated time of the occurrence
+
+spk_1: Yup 5201385 And it was um in the last hour Um I'm at 58
+
+spk_0: Uh so you mean uh 11:58 a.m.
+
+spk_1: Um Eastern time yes
+
+spk_0: OK
+
+spk_1: 11:58
+
+spk_0: a.m. So so when it froze so nothing was uh functional like were you transmitting the live video at that time
+
+spk_1: I was I was transmitting the live video and they said my picture froze and then like it was going like I had it on up to 3 seconds um which which usually does me pretty well and uh Not that crowded of an area but today it did not Hold up on me
+
+spk_0: So the the uh the receiver side guys told you that the picture froze right
+
+spk_1: Right and then I looked um because the tohero hangs on my tripod on a hook I'm I'm not always monitoring it as it's going up you know as the signal's going out So they they told me and so then when I rebooted it um it which always takes longer than 11 user starting um then it was fine
+
+spk_0: Makes sense But but my question is when the picture was frozen on the receiver side uh was the uh picture on the Ego frozen as well Like uh was just the preview window frozen or just or the whole unit was not operational
+
+spk_1: No I think just the preview window you know what what was going out not not touching the but like it was easy to bring you know to shut it down
+
+spk_0: I get it Uh let me connect to it right now I know what happened 520-1385 So my guess is without looking at it uh it must have lost the input video from the camera or or from the source but in the settings uh when it so the the last video option is Is set as the last frame So that means uh it will keep sending the last frame available before it lost the input video Uh Let me try it But
+
+spk_1: but it but I also but I also saw that my latency was was moving all around and it said the signal was poor
+
+spk_0: Makes sense Yeah video losses black screen OK uh no worries I will Check the logs and then see No I mean if it was the the case which I was saying then it could be the you know the the hardware thing on the end go but but if it was frozen then I will have to check the logs and find out what went wrong with it Great Uh all right if you can leave the unit on for me uh I will collect the logs and we'll get back to you
+
+spk_1: Great I'm I'm just gonna um be driving so I'm gonna leave it on
+
+spk_0: OK all right
+
+spk_1: Great thanks All
+
+spk_0: right no problem Thank you bye bye
+

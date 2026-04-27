@@ -1,0 +1,24 @@
+spk_0: Zero support Scott speaking
+
+spk_1: Uh Hey Scott it's John calling from Global Television again Um ok so I've got another issue with another machine Um this time it's a Deger Waypoint 50 and it's not receiving and I'm just trying to figure out if you can help me out on this one It's uh the serial number is 43072 And fortunately it hasn't been turned on in quite a while So just wondering if it needs an update or something
+
+spk_0: One second let me see if I can get into it
+
+spk_1: here
+
+spk_0: Yeah it looks like there's no connection to it here Um Is it powered on Do you know
+
+spk_1: it is powered on It's got a network connection Uh Let me try another port I'm gonna try a port It might be the port Ok let me try this port So you're not seeing
+
+spk_0: well I don't see it in control here That typically means that the 46001 is blocked or it's just not opened up for us to communicate with control I can get to it via team viewer I'm actually on it right now in view but I'm not able to see it in control so that that just tells us because we do a check status and control and it comes back says receiver unavailable It tells us that 60014 is closed
+
+spk_1: Ok Um Right Ok So hold on I'm just gonna actually throw you on to a direct connection here so that I'm bypassing the switch I'm gonna go right into the digital sorry Scott It's a fucking stressful afternoon here Everyone wants this ship to work It ain't working Ok I'm gonna go direct off my modem here If you can't see that just trying to figure out I don't even know how to configure those ports Yeah So when I go check status testing yeah it goes turns red receiver unavailable
+
+spk_0: That means that that port 6001 is not open there There's a firewall uh rules that we have I could send you that that need to be open for this Uh That one of them is 6001 Yeah let me create a case on this issue and get that over to you Um I did uh create a case on your own an R MA You should have got an email if you could send me that address If that possible That'd be great I will get that over
+
+spk_1: Ok great perfect
+
+spk_0: Thanks for that Ok No problem
+
+spk_1: Bye Ok bye bye Yeah
+

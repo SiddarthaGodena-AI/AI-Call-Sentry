@@ -1,0 +1,20 @@
+spk_0: This is Scott
+
+spk_1: Hey Scott Mara from the jail
+
+spk_0: Yes hi
+
+spk_1: Hey so yeah I found the settings So uh that port 2 was set as a VA port uh whereas it should be set as LAN So I I have changed it to LAN Now it should uh provide the internet connectivity but uh before that I have to reboot it So uh I just didn't do that I just wanted to check with you if I can do that
+
+spk_0: OK yeah yeah go ahead Thank you
+
+spk_1: OK All right I'm gonna reboot it and once it's back it should uh provide internet connectivity via internet
+
+spk_0: Great we'll check it out
+
+spk_1: All right thank you All
+
+spk_0: right Thank you
+
+spk_1: Yeah yeah no problem bye bye
+

@@ -1,0 +1,20 @@
+spk_0: Thanks for support My name is Austri How may I help you
+
+spk_1: Oh hey it's Mike and Victoria I called earlier about getting an internal battery error and the the code or the case number is just one second uh tt 1 17 995
+
+spk_0: Ok let me find that case Ok Mike let me check if uh Prianka is available to take the call Now she spoke with you earlier about this Give me just a moment Hm Mike Just to verify your phone number Is it 2506611412
+
+spk_1: correct Ok
+
+spk_0: I'm just waiting for Priya to reply
+
+spk_1: No problem
+
+spk_0: Thank you Ok Mike I'll transfer the call now Give me just one moment and I'll do that now
+
+spk_1: Thank
+
+spk_0: you
+
+spk_1: You're welcome
+

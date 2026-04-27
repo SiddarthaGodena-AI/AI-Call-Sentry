@@ -1,0 +1,332 @@
+spk_0: Thanks for congestive support My name is Oscar How may I help you
+
+spk_1: Hi this is Carlos with KTLM Yeah uh we restarted the servers the general servers But they're stuck at that super micro screen for a while
+
+spk_0: Oh I see OK that that's yeah have you seen that problem before
+
+spk_1: No not that I know
+
+spk_0: Yeah that that indicates a problem with the uh with the IFP card Let's take a look What is the serial number for the uh the the the receiver
+
+spk_1: Um there's there's two of them um a multi-point Yeah
+
+spk_0: if you can look up the serial number for them
+
+spk_1: Uh 38429 is one of them
+
+spk_0: 38429 OK And what's the other one
+
+spk_1: I believe it's uh 41025
+
+spk_0: Can you double check
+
+spk_1: Yeah and then it is and then 731-127 I got 3 of them
+
+spk_0: OK So the the 2nd 1 41025 right Yeah and and that's the one that's stuck on the super microscreen isn't it The
+
+spk_1: second one There's 2 of them There's 2 of them The the ones that are Windows-based are stuck
+
+spk_0: OK let me check because the uh That when it's stuck on the super micro screen I think it's the second one but let me check Let me see if they show online So just to verify the numbers again 38429
+
+spk_1: Mhm
+
+spk_0: 41025
+
+spk_1: Yeah And
+
+spk_0: 731-127
+
+spk_1: Yeah OK
+
+spk_0: And you you reported the 3 of them today is that right
+
+spk_1: Yeah OK
+
+spk_0: Let's check them see if they're online
+
+spk_1: Well they can't be online if they're on the super microre
+
+spk_0: Well the first one is right that that's that's why I'm asking because the 38429 I see it online in in TeamViewer let me try to connect to it I think the only one that's that's showing the super microscreen is the 2nd 1 but let me check So the first one is showing the uh the command the um the prompt to log in Let me check the second one so 41025 that I that I think is the one that is offline Yeah that one's offline and let me check the last one Oh I see OK the 3rd 1 is also um Also shows offline and that that that makes sense because the 731 that's a uh a flex point OK now do you have um an image of the screen that shows that uh that super micro The
+
+spk_1: micro
+
+spk_0: right OK the XC right it shows the XC at the bottom OK yeah that indicates that there's a problem with the IFP card Let me start a take on this and then I I'll I'll show you what we need to do so I'll I'll open it in the 41025 initially And both of them show that the XC error at the bottom
+
+spk_1: Yes DXT dash USB device dete OK
+
+spk_0: yeah let me just start a take on on that one On that issue And then and then I'll I'll explain what the problem is
+
+spk_1: how to solve it I guess
+
+spk_0: Carlos what is your email station just to verify
+
+spk_1: Carlos Alaz at Telemundo.com OK
+
+spk_0: OK give me just a moment to create the ticket and then I'll I'll discuss the issue
+
+spk_1: Mm
+
+spk_0: OK Carlos I just saved the ticket Let me know if you get an email for the ticket number and I'm going to send you a link to it to a document and then I'll I'll explain what needs to happen So essentially there's an IFP card on both of these devices that is faulty and that's causing the the air to come up and that and then to not put up
+
+spk_1: I a
+
+spk_0: IFP IFP card is an audio card that's on the back of the device that has 4 audio inputs
+
+spk_1: OK
+
+spk_0: But uh let me send you uh a link to a document that shows what we need to do and then I'll I'll explain Let me just send you that now Did you get the email for the ticket number already Not yet OK let me know when you get in then I'll I'll send you a separate one
+
+spk_1: Yeah I got it I got it OK
+
+spk_0: let me send you a separate one that has a link to a document and then I'll uh I'll explain OK I'll send you a separate link now OK Carlos I just sent you a separate link Let me know when you get it and then just open that link to it to see the the document and then I'll explain what you need to do for now Essentially what we'll need to do is we'll need to uh to send you two cards for replacement but for now all you need to do is disconnect the the card from the motherboard but I'll explain once you get the uh the document because it shows it shows some pictures about uh the the card that I'm talking about
+
+spk_1: So we can we can uh run it without it
+
+spk_0: You can right so there there's an IFP card inside the unit that that provides IFP audio right to to to the field
+
+spk_1: It says uh I need to sign into the control.com
+
+spk_0: Correct Do you do you have a have you logged into that site you have access to that site
+
+spk_1: No
+
+spk_0: You don't OK so let me let me send a PDF then I thought you had access to the sites
+
+spk_1: Oscar Costa
+
+spk_0: Yeah let me just send you a uh a PDF of that document so that you can you can see it Let me just save it first This will be a PDF of of the document that has Some like some pictures
+
+spk_1: OK Mhm mhm
+
+spk_0: OK I just sent you the uh the PDF So once you once you get the PDF if you don't mind just open it and I'll I'll I'll show you
+
+spk_1: Yeah
+
+spk_0: So essentially for now all you need to do is uh disconnect the IFP card from the motherboard But I'll wait until we get that document So for now you just have to to do steps 12 13 and then I'll show you what you need to disconnect
+
+spk_1: Yeah
+
+spk_0: Yeah let me get let me know when you get the file and open it and then I'll I'll just fine
+
+spk_1: Not yet OK So do I have to open up the top that's right You need to remove the top cover
+
+spk_0: Uh so essentially you'll see in the document but it has 22 side screws at the top they need to remove on the sides and then there are two buttons on the top that allows you to to to slide the cover off But I wanna I wanna just make sure that you get the uh the PDF so you can see the uh the picture the pictures
+
+spk_1: Not yet
+
+spk_0: Yeah let me just double check that the system sent you the the PDF file Yeah it should have been sent to the same email You should receive it shortly And you need to make sure that you power off the devices but basically the um documents will show you how to remove the top cover And then for now all you need to do is disconnect There's a cable that connects the IFP card to the motherboard For now all you need to do is disconnect that cable from the motherboard because once you do that then you can power up the device and they will boot up It won't give you IFP because the card is disconnected but it will it will allow the device to boot up and and you can use the device without a without IFP And then uh I'll need to request two cars to be shipped to you so that you can replace them But uh first I wanna make sure that you get the the PDF while we wait let me make sure that I have the correct shipping address for your station So for PTLM Let me check if it is correct And to verify your phone number is it 956-263-0352
+
+spk_1: Yeah OK OK
+
+spk_0: let's see default
+
+spk_1: shipping OK
+
+spk_0: Is it 200 South 10th Street 2nd
+
+spk_1: floor
+
+spk_0: OK if if you don't receive it I'll I'll try to send it to you again 2nd floor and that's McAllen Texas is that right
+
+spk_1: Yeah
+
+spk_0: 78501 for the zip code
+
+spk_1: 78501
+
+spk_0: OK great thank you
+
+spk_1: Ah
+
+spk_0: Can you check your inbox again to see if you got the email
+
+spk_1: Try to check it I haven't receive it Hold on OK
+
+spk_0: It should be just a PDF file
+
+spk_1: Not yet Did you attach it
+
+spk_0: I I did I did but let me uh let me send you another one But yeah I did attach it but let me let me try again
+
+spk_1: I know I'm Mm Ah
+
+spk_0: I'll send that to you again
+
+spk_1: Hm Maybe it's too big OK
+
+spk_0: No it's a PDF file It's not uh it's not a large file Let's let's see the size is only
+
+spk_1: The
+
+spk_0: size is less than 2 megabytes Let me send it to you again
+
+spk_1: Yeah
+
+spk_0: OK you said it's due again Let me know if you receive it
+
+spk_1: Ah well I mean I can just remove the the coverage But it's it's the screw for the cover Yeah
+
+spk_0: so you have to make sure that you power up the device but if you look on the OK OK good So if you look at the cover there should be a side screw on either side one scroll on either side at the top close to the back On the back No no so it's it's on the side but it's it's uh you have a you have a screw that holds the the cover in place on the side So if you look at the cover close to the back there's
+
+spk_1: one
+
+spk_0: on either side so 11 yeah one on either side of the cover that you have to remove close to the top So remove those two And then after you remove those two screws then you have 2 buttons at the top That you can that you need to push down and then slide the cover back and and you can and then you can lift it
+
+spk_1: OK and
+
+spk_0: then so now look on the on the cover there are two
+
+spk_1: buttons OK OK Now look for the uh the IFP So there
+
+spk_0: there's a cable that connects the IFP to the motherboard a USB connector
+
+spk_1: Is there a card that has uh some Input yeah
+
+spk_0: Right so it's the
+
+spk_1: car that has a black a USB cable right
+
+spk_0: right So that cable connects to the motherboard So there's a USB connector that connects to the motherboard just disconnected from the motherboard just disconnected from the motherboard
+
+spk_1: Disconnect that black cable from the motherboard OK Right
+
+spk_0: just pull it out and then once you once you disconnect it you can you can try to power up the device but uh now it should power up You can if you want you can just uh attach the cover again but that's all you need to do for now just disconnect the the cable from the motherboard
+
+spk_1: Yeah I got the email already so
+
+spk_0: OK So yeah so so that email I mean it tells you how to replace the card So for now you don't need to replace the card right because you don't have the replacement yet But uh just just disconnect the the cable from the motherboard and you have to do the same thing to the other to the other device because once you do that when you power up then the device will boot up And you can use it you just you just won't be able to use IFE because the the card is faulty The ISV Yeah so that card that you're disconnecting is the LFB card so you won't be able to use IFP until you receive the replacement card But but you're able to receive streams on the IP so or maybe you're not using the IP So did you have any audio inputs connected to this card OK so only basically is is audio that you that you feed to the receiver that is sent to the uh the transmitter in the field so that they're able to to hear the people from the station talking to them
+
+spk_1: That's that's IP IP audio yeah So IS is not gonna work For now
+
+spk_0: for now it won't work because the card is faulty but I'll request two cards to be sent to you for replacement to replace the faulty ones So in the meantime you can continue to use the receivers but you won't be able to use IFP until you receive until you uh uh replace those two IP cards
+
+spk_1: Yeah I get it yeah Let me uh connect everything back hold on Yeah so essentially yeah Huh yeah I'm trying to connect everything again OK OK
+
+spk_0: yeah I'll do that and then it'll make sure that it powers up
+
+spk_1: Yeah OK so let me go check to see if it's back on So why did he go bad man
+
+spk_0: It it just happens so it's I mean it's an old issue that sometimes when you reboot the device that it causes the this the card to I mean it's not it wasn't the reboot that caused the issue right So we don't we don't know exactly why that that happens but but we've seen that happen on some some IFP cards
+
+spk_1: OK I see I need to make sure it logs into Windows right
+
+spk_0: Exactly right just make sure exactly just make sure that they that it boots up to the window But it should it it should not get stuck on the super micro now if you have the cable disconnected
+
+spk_1: Yeah it says Deer user but I don't know the password
+
+spk_0: You can just put it in
+
+spk_1: But that's good that it logs in bro
+
+spk_0: Not exactly so it's that one is fine because if if it if it has the same issue you wouldn't see the window screen right So it's it's up to the window screen so it's it's that one's OK Which one is that one Is the is it the 41025 or the other one
+
+spk_1: 38 no sorry the 41025 yes OK So the other one we're gonna do is 731127 right
+
+spk_0: No no no no not the 10 sorry sorry 31127 right That's the other one that you need to do
+
+spk_1: Yeah that one has a blue that same thing yeah
+
+spk_0: right sorry yeah that yeah I was thinking of the third one that you that you told me but no yeah so the other one is uh like you said 731127 So yeah you have to do the same thing on that one disconnect the cable from the motherboard
+
+spk_1: Yeah well I need to unplug everything first I guess OK So I have to pull it out of the rack and all the cables are on the back Yeah yeah
+
+spk_0: right right yeah I know what you mean
+
+spk_1: OK Uh there we go and
+
+spk_0: In the meantime I'll just look up the part that we need to uh to send to you So I I'll need to request two cards for you to replace them
+
+spk_1: And uh you can't send fair I can see if it happens then we have one here
+
+spk_0: No I mean we can send new cars for replacement I mean so I mean this is not something that happens frequently right I mean it happened now because you know it's something that may happen with older cars right but the the new cars they they should be reliable I mean the the new cars that we provide they they should not have the same issue again
+
+spk_1: I see Yeah They should get here probably like next week
+
+spk_0: exactly right it'll take a few days So if we have I mean I think that we have cars available today so they should be shipped today and they'll take a couple of days to get to you So by early next week you should get them
+
+spk_1: OK
+
+spk_0: And once I get the tracking number I can provide that to you as well but I I I suspect they'll they'll be shipped today the two cards
+
+spk_1: So I'm gonna remove the screw Yeah
+
+spk_0: So so just follow the same steps on the 2nd 1 just disconnect the cable
+
+spk_1: Again I'm just gonna think us on the motherboard and disconnected And uh And put it back to cover OK Um This one didn't have a cable connected to it so I guess we never used it on this one Oh the other one had it
+
+spk_0: Oh you mean the the oh I see I see what you mean you mean the audio cable right
+
+spk_1: Yeah that was on this one On the 2nd 1 there was no cable connected to it
+
+spk_0: Oh I see OK right so it sounds like he never he didn't use you on the on the on the second one right right OK
+
+spk_1: But the first one yes so let me connect everything back Mm Mhm OK can I put everything back Can you You're online
+
+spk_0: Now the first one I don't see online yet is it is it connected to the network already 41025 So the the first one that you did that you did I don't see I I don't see it online in TeamViewer
+
+spk_1: There's a command from Spain
+
+spk_0: No no I mean yeah so I mean it put it up but I mean it's it's not I don't see it online in TeamView or is it connected to the network Is the internet cable connected to it
+
+spk_1: Yeah
+
+spk_0: OK It could be that I have the wrong ID So this is for the first one right 41025
+
+spk_1: I can I can think the DNS 8888
+
+spk_0: OK so it sounds like I have the wrong ID for TeamViewer Can you can you type the command Explorer EX P L O R E R
+
+spk_1: 41025 right Yeah yeah
+
+spk_0: So just run the command explorer that that will show the Windows interface Oh OK So explorer E X P L O R E R and then press enter
+
+spk_1: Mhm Uh in numerous
+
+spk_0: So if you look at
+
+spk_1: you
+
+spk_0: Oh I see so
+
+spk_1: maybe it's not OK
+
+spk_0: so that's fine so that's OK So don't worry about that's why I see it off and it's uh it's not installed OK that's
+
+spk_1: 12 but it's not Let me open it OK CR 12 was not running 555 that one
+
+spk_0: I see it online now OK yeah yeah So it was it was not running OK now now I see it online Let me try to connect just to make sure that I can So right so that's why I saw it offline it was not it was not running OK let me try to connect to this one OK yeah perfect Yeah that works I just want to make sure that I can connect Alright so this one is fine How about the second one Is it already connected as well to the network
+
+spk_1: Yeah OK
+
+spk_0: let me just make sure that I see the second one as well I do yeah let me try to connect to it as well That looks good yeah I was able to 384 1 is fine That was initially but I'll try to connect with it now So 38429 was it
+
+spk_1: Yeah
+
+spk_0: Yeah that one doesn't have the problem So that that the the issue that you have with the other two they they don't affect this one but let me let me see So 38429 Let me just find that one and try to connect to it Yeah I see that one online let me try to connect with TeamViewer Yeah but the problem does not affect the um this older receiver Yeah this one's OK I just connected with TeamViewer and it's it's showing the uh the Windows login screen
+
+spk_1: OK so we're gonna try to route something to it to make sure it works They're nice Yeah but is it online That Alright so it's back online We love you OK so I think we're back online sir OK
+
+spk_0: So so like I said Carlos I'll need to request 2 cards to be shipped to you for replacement but in the meantime you can you can continue to use the receiver Just let the let your team know that the IP will not be functional until you until you replace the cards And the
+
+spk_1: the ISP is is from the people outside right
+
+spk_0: So right so I is audio from the station to the transmitter so that they can the crew can hear the station
+
+spk_1: So audio from the station to the transmitter
+
+spk_0: Right so let's say for example someone is getting ready to to stream live and if the station has instructions that they can talk to to the the crew directly from the station and that that's what I feel is audio from the
+
+spk_1: station yeah Are you have on there Ah OK even delaying all of them Oh OK Propeos is not all of the mask It's just see tulas Jaquialo novajadorita they're nolo When It's SIP Yes you know I delay OK I gra OK sir I think we're done here OK so
+
+spk_0: yeah so
+
+spk_1: like I
+
+spk_0: said I'll I'll request the two cards to be shipped to you and then once I have the tracking number I'll let you know as well Once you get them you just need to follow that document that I sent you to replace the 2 cards and then that that will restore the IFP function as well
+
+spk_1: Sure alright sounds good thank you man
+
+spk_0: All right thank you Take care Have a good day
+
+spk_1: Bye bye Oh
+

@@ -1,0 +1,42 @@
+spk_0: Do you support This is Priyanka Hi Brianca My name's Matt Bern I'm calling from uh WRC NBC affiliate in DC Um have kind of an odd 11 of my outputs um is showing live and I have nothing assigned to it that is currently live I can't get it to stop Ok you have the serial number for the device I do Um do you need the whole thing Uh Yeah I mean it's for the receiver right So if you can just see it's just one of the outputs on that receiver though which is strange Um The serial number is 41886 Ok Just let me check
+
+spk_1: 30 1515 I know that like
+
+spk_0: which output is showing life Is it the news 1718 19 or 22 18 Ok Let me just check
+
+spk_1: 1361 Have you got these bands I got some breaking news to code Ok Uh Is it the whole live desk The chopper Sammy is that the la uh breaking news or the chopper Oh I see the voter removal Got it
+
+spk_0: Just bear with me I'm just uh pulling up all your details here No problem
+
+spk_1: One minute So do me a favor from frame of three um for a close up because I'm gonna be using it and see and go ahead and get 2 to 2 seconds It's not gonna go to uh come on
+
+spk_0: So uh Matt I can see that there are two sources assigned to it One is the deer and the iphone Yeah there's nothing live though I have like an old Deo splash screen in there so I don't know what it is but that it's not either of those two that are assigned Like if you wanna sign those I can do it right now Uh I just wanna um individually open those up and double check Uh you got the serial numbers for them Um 08 Yeah the 08 and even the iphone iphone I'm grabbing them right now 08
+
+spk_1: camera three Nexus is gonna be on here
+
+spk_0: The serial number for the 08 is 5200834 Ok just a minute Ok
+
+spk_1: 1259 Uh give me one second here Get one code in Yeah
+
+spk_0: Yeah that one's offline So definitely it's not that one and then the iphone is 1283343
+
+spk_1: Mm
+
+spk_0: Both of them are both of them are offline So I know it's really strange Weird Ok let's see
+
+spk_1: one minute and this says yellow Ok Ok 40
+
+spk_0: Let me just try to log into the receiver and see that
+
+spk_1: I'm gonna be on camera that like 574372 right So triple one can we uh what So and one tighten up a little bit in the pan right How's that Yeah I can't I can't see the I just it for the angle
+
+spk_0: Uh can we uh turn that splash screen off on the output two for that receiver on news 18 Yeah turn it you turn it off so I'm seeing you see how it's a white one Can you see that Yeah Uh what I suspect is because of that it may be the case Um so can I do is this receiver being uh is it in use right now No it's not I I just wanna turn stop it from the live Ok Um What I'm gonna do is I'm just gonna restart the Deger service here so Yeah
+
+spk_1: Mm Yeah
+
+spk_0: Ok I'm just attempting to restart
+
+spk_1: that Be right 213 We'll change it 25 Yeah
+
+spk_0: Uh can you refresh and check now I believe it's gone Yeah Yeah Yeah I see the splash screen is gone and then let me I'm just gonna try and um take a multi point channel and make it go live again and see what happens Yeah Currently it shows ready looks like it's going Mhm One minute Yep Good to go Now do you think it just something just got stuck in there Probably I mean uh just could have been like an orphan transmission so I just restarted the service and uh yeah looks to be fine now Great Yeah good to go on my end Really appreciate your help Yeah no problem You have a nice day Matt You too Thanks Bye bye
+

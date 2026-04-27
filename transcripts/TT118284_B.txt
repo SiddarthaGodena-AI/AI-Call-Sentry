@@ -1,0 +1,36 @@
+spk_0: Hello
+
+spk_1: Uh Hello this is Rickyo from the Hi how are you Uh I'm good So calling you regarding that end goal that we were talking about this morning uh the live video photos on it So uh I I checked the logs yeah I I Did find uh a lot of errors related to encoding Uh on the on the end goal Uh I have a I have a question So was there anything changed while the the live video was you know uh transmitting uh like I'm talking about the the orientation Of the of the screen or or anything that could have you know uh increased the CPU usage or something
+
+spk_0: No it it basically just sits there I mean it may get a little I doubt it but I mean it's kind of like by my thigh on my tripod I mean it could have gotten a little bit of a bump but I doubt it
+
+spk_1: OK Yeah so uh one thing uh appeared in the logs was the orientation was changed to portrait flipped
+
+spk_0: Oh no that wasn't changed at all
+
+spk_1: OK All right and and when the the the video on the preview window of the end goal was was frozen uh was it coming fine from the end goal Did you check it at that time
+
+spk_0: Um when when I was told by my um transmission that there were issues I looked down and I couldn't tell because you know I mean I was looking from up above I lifted up the flap couldn't tell if it was frozen but I saw that um it it went to poor and it was trying to establish itself back to good We we went to like 2.1 um because I use up to 3 seconds for my live shots and then um and then I saw was it 4 2.1 trying to establish but at that time I just needed to um get on the air because it was like right before my on air time and so I just powered it down to recycle and then when it came up it was fine
+
+spk_1: Makes sense makes sense but you're not sure if the uh the the video on the preview window was frozen or not right
+
+spk_0: No I couldn't get I didn't have enough time to you know Check or I tried to check quickly but I it didn't appear easily
+
+spk_1: OK uh yeah so I I did see that the the the the stream health dropped to 0% at one point uh at around you know 11:57 a.m.
+
+spk_0: uh Right that that would be it yes
+
+spk_1: Yeah so uh Uh OK so uh but I also checked the individual SIM cards None of them had issues so definitely something was wrong either the hardware wise or something was wrong with the encoder in the end I might have to most likely I will have to you know uh escalate this to my software development team Uh OK So yeah I I have the logs but I just wanted to get that information from you So uh let's see if something's wrong with the encoder or something uh I will also mention that the unit is currently working fine which is good so so that you can still use it uh but we will find out what went wrong if there's anything to be concerned about
+
+spk_0: because this has happened on a few of our units um and they're all and everything except for one which has not had a problem are all up to date um with software updates
+
+spk_1: Yeah the only thing I changed uh in this equation is I updated the core software on the receiver So I I I made sure there was nothing going live to that receiver Uh I updated it to the latest version uh but it's highly unlikely that this event was triggered uh by the receiver So uh uh I will still escalate it just uh for the visibility and then to to find out if there's anything serious Uh on the end
+
+spk_0: I appreciate your time and I can I can work it down right because I'm getting ready to go home
+
+spk_1: Alright OK OK thank you
+
+spk_0: appreciate you
+
+spk_1: thanks bye bye
+

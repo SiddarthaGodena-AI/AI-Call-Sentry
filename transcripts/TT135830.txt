@@ -1,0 +1,82 @@
+spk_0: Glasmana speaking
+
+spk_1: Hello
+
+spk_0: uh this is
+
+spk_1: Steven with uh KTLA How are you doing
+
+spk_0: I'm good Steven How may I help you Could uh
+
+spk_1: do you mind rebooting our Q point
+
+spk_0: Uh sure Can I get the serial number please
+
+spk_1: Uh let me take a look see I think it's 790035
+
+spk_0: OK
+
+spk_1: Uh for some reason when I try and open a feed from like an iPad it keeps failing to load the feed but when I look at it through my control uh the control room on my computer it loads so um
+
+spk_0: this has happened
+
+spk_1: before where a reboot just seemed to fix it
+
+spk_0: OK and uh what uh which browser are you using on the iPad
+
+spk_1: Uh safari
+
+spk_0: Oh can you did you try Google Chrome Generally it works in Google Google Chrome
+
+spk_1: OK I'll give it another go Yeah Let me download it first But uh I've definitely used it in Safari before but if Chrome gives it less issues I'll definitely use that Mm mm OK 50 Um Let's see I just got punch in a password here Just waiting seeing if it loads
+
+spk_0: Mhm
+
+spk_1: No there was an issue loading the speed
+
+spk_0: OK let me Reboot it then
+
+spk_1: OK Thank you so much It'll just be a few minutes right
+
+spk_0: Yeah I will restart the service first and then uh if that doesn't work then I will go ahead and reboot the device
+
+spk_1: OK
+
+spk_0: Can you try refreshing the page now It's a guest link right You're using Correct OK
+
+spk_1: Let's see let's go Fresh No same same error
+
+spk_0: OK Oh I just rebooted it
+
+spk_1: Thank you
+
+spk_0: What network are you connected to on the iPad
+
+spk_1: Uh I'm connected to our house network Actually
+
+spk_0: I just check
+
+spk_1: some stuff so let me get off of it see if that makes a difference Oh were you gonna ask
+
+spk_0: Uh I was gonna ask like if there's any firewall that could be blocking
+
+spk_1: That's exactly what I was just wondering because they just changed the uh device network So I wonder if they made some changes This always happens Mhm So I came off of the network and it connected I'm just gonna go back on the network real quick and see if that's what it was
+
+spk_0: So you came off themetric and it worked fine
+
+spk_1: Yeah so let me try one more time going back onto the network and then I guess we'll have our answer Yup Yeah I'm already certain it's already spinning it's gonna take a minute
+
+spk_0: cool
+
+spk_1: all right well thank you for helping me
+
+spk_0: figure that
+
+spk_1: out So so
+
+spk_0: so so it doesn't work on the network
+
+spk_1: Correct I'll have to go talk to IT Alright thank you
+
+spk_0: No worries thank you bye
+

@@ -1,0 +1,192 @@
+spk_0: DJ this is James How may I help you
+
+spk_1: Hey James Uh this is uh Dennis from CDC in Regina How are you today
+
+spk_0: I'm good Dennis How about yourself
+
+spk_1: Yeah not too bad Hey I'm calling about case number 1 35 875 Ok It's uh um army for A N go 265 that had internal battery error failure Ok I got the the report Ok go ahead Let me
+
+spk_0: pull up here Ok give me that number again I got 13 eight the
+
+spk_1: case number So you have 1358758
+
+spk_0: 75
+
+spk_1: Ok 135875 So I've got the replacement to receive this morning and then go to 65 and its serial number is 5261619 five
+
+spk_0: two 612
+
+spk_1: 16 That's 2526526161919 Ok All right Yeah So I just turned that guy on and he's got a same error Oh I just turned it on and I walked to my desk and then went to the remote portal to change the name and whatnot And then when I got to it on the portal it had on the screen say hey it's got a uh um battery internal battery error That is very odd
+
+spk_0: Very odd Ok
+
+spk_1: Um so yeah because the new one is called uh let me go here Uh yeah 5261619 I think Right Yeah Ok Let's see Ok It was very unusual to have exactly the same problem for the one that's replacing it
+
+spk_0: Yeah that is very very strange Ok so the old one was 5260945
+
+spk_1: Ok Yeah old one Yeah it was uh 0945 Yes for the last digits Yeah
+
+spk_0: And the new 15261619
+
+spk_1: All right
+
+spk_0: That is really weird Ok let me
+
+spk_1: yeah I don't I just that's out of the box I haven't done much but they just push record just to test but then hey it's and then when I I go into the machine it says your device has recorded an internal battery fault support code 30
+
+spk_0: Mhm Yeah
+
+spk_1: this is really weird Mhm Are you remotely controlling and changing brightness and stuff
+
+spk_0: No I was in it just checking some things but no I didn't change the brightness or anything
+
+spk_1: Oh because the brightness dim and the brightness thing back up Unless is that is that auto sense I'm sure that's all sense then
+
+spk_0: Yeah most likely Ok let me get a screenshot of this quick here
+
+spk_1: All right Ok
+
+spk_0: See All right let me send this over to my lead or my group and see if they have any idea how this is possible because there's there's no way this should be
+
+spk_1: sure Just mm all they do is turn it on So uh it's weird
+
+spk_0: Yeah
+
+spk_1: And I did wait about three or four hours when it arrived so I was busy with other things So it was up to room temperature by the time I turned it on So Ok Ok OK
+
+spk_0: And typically this only happens at least that error is on The only happens when it's um like if you're streaming not always but sometimes
+
+spk_1: yeah we never started streaming or anything yet So
+
+spk_0: Right Yeah Hadn't even got to that point Ok Let's
+
+spk_1: mhm Six Mm
+
+spk_0: OK Power OK So this is saying that it's the api call failure and go reports battery error and can't use power button to power off the unit It is not a real battery error The unit experiences power board temporary communication error and it's a shut down the unit from in go You are menu settings operations and then shut down when the unit powers up again Next time the issue should be gone OK So let's do this
+
+spk_1: Ok
+
+spk_0: Um OK Go to settings
+
+spk_1: and just watching on end go where you're going here So
+
+spk_0: and operations and shut down He says when the unit powers up again Next time the issue should be gone All right So it should be power down
+
+spk_1: The little the power button still was lit blue
+
+spk_0: It's gonna stay blue No
+
+spk_1: Um Oh here it's still shutting down here Yeah Yeah there we go Now it shut off Ok So turn that on
+
+spk_0: just give it a minute or so
+
+spk_1: Ok
+
+spk_0: And we'll see And you said you got it today and waited a few hours before you even plugged it up
+
+spk_1: Yep
+
+spk_0: Ok
+
+spk_1: Ok I'll turn it on here Ok It's not turning on Oh
+
+spk_0: hold on hold on No no no no Hold on hold on I think it got hung up for a minute
+
+spk_1: Like the lights on everything is off but it doesn't wanna turn on You just hold it for a couple seconds and it turns on That's not doing that
+
+spk_0: Yeah I'll give it a minute
+
+spk_1: Ok I'm gonna disconnect it from the belt pack from the backpack here Disconnect all the cables Ok So everything is completely disconnected from that
+
+spk_0: It was something on my end It after I shut it down it didn't give me the option to turn it off and think you hit something before I before the option finally popped up on my end Mm So we'll just give it a minute Uh Let me do this here
+
+spk_1: Yeah just let me know whenever you want me to turn it on again
+
+spk_0: Ok the screen right now is black nothing on it Ok Go ahead and uh power back on
+
+spk_1: Ok Hm It's not turning on I'm holding the button for a second or two and it's not due here 1001 1000 2003 Just momentary
+
+spk_0: Ok It should have came back on now or started coming back on
+
+spk_1: No nothing's happened
+
+spk_0: Is the blue light flashing at all
+
+spk_1: No nothing Mm
+
+spk_0: Ok Let's see Hold it for like about 56 seconds the button and then let it go and see what it does
+
+spk_1: Ok 456 No Huh I hold it for 10 longer or whatever But because they unusual usually just uh when I first got it they just momentarily touch it like a second and it turned on but now it's like it's dead
+
+spk_0: Yeah And the battery was had power to it
+
+spk_1: Yeah it was uh you know on the well it didn't show you the battery charge this had error on it but it was running
+
+spk_0: Yeah Yeah Yeah Yeah Let's see
+
+spk_1: I push and hold it for 10 seconds just like a laptop Whenever it's frozen you can force it off Yeah Ok That I can hold it for 10 unless you want me to wait or no Go ahead Ok I'm on the phone Ok After 12 seconds the button turned on
+
+spk_0: Ok That's a start
+
+spk_1: Fans are running
+
+spk_0: Ok
+
+spk_1: Nothing on the screen yet Mm Doesn't inspire too much confidence here There's nothing on the screen
+
+spk_0: right That didn't doesn't sound
+
+spk_1: so you can hear I'm not sure if you can hear but the fans are running
+
+spk_0: and still nothing showing on the screen
+
+spk_1: No Ok button is the blue is on and yeah so yeah I don't think this is a bit of a fail here So uh
+
+spk_0: yeah
+
+spk_1: I'm I'm sending
+
+spk_0: you
+
+spk_1: another one because we're short of the journal now for a week So
+
+spk_0: yeah I'm checking I'm speaking to the department that handles that Yeah let's see
+
+spk_1: like something out of the box that doesn't work I'm not too fond of keeping
+
+spk_0: Oh no I don't I don't blame you at all
+
+spk_1: Yeah
+
+spk_0: And what did the error say on it
+
+spk_1: Oh before it was error battery error uh system error or something 30 30 was the number
+
+spk_0: Ok Yeah this is really strange
+
+spk_1: Yeah So it's still fans just going full blast and the light is on So I'm gonna try pushing the power button again just to so this can maybe shut off again and I press and hold power button again Um two Ok Or five Yeah 78 9 10 1112 14 Ok Ok It's not showing off
+
+spk_0: and I can't even see it because it's technically not online So I can't see anything
+
+spk_1: It's it's not power going it's just a fan that's running there's nothing here
+
+spk_0: Ok Uh I'm gonna go ahead and get another uh r ma sent uh set up and for it to go out for you to get another one
+
+spk_1: Ok Yeah that
+
+spk_0: makes sense to see if your ticket uh oh your ticket is still open No no wait wait where is it Yeah Ok ticket is still open so I'll go ahead and get that done now I got all the information I needed if by chance it does come back up and does anything just call us and let us know but otherwise I'm gonna get the R MA created regardless
+
+spk_1: Ok perfect Yeah regardless so I could take another one
+
+spk_0: Um
+
+spk_1: Yeah Ok
+
+spk_0: Alright Thank you very
+
+spk_1: much
+
+spk_0: No problem Dennis Thanks for calling Bye
+
+spk_1: bye bye bye
+
