@@ -1,0 +1,19 @@
+spk_0: Thank you for calling support, this is Priya. How can I help you today
+
+spk_1: Hi, my device stopped connecting to the network this morning and I need it working for a site visit
+
+spk_0: I'm sorry about that. Can you read me the device ID on the label
+
+spk_1: Sure, it is DEMO 0042
+
+spk_0: Thanks. I can see the SIM on that device was deactivated after 90 days without use. I'll reactivate it now
+
+spk_1: Great, how long will that take
+
+spk_0: It should reconnect within five minutes. Please restart the device once
+
+spk_1: OK it's back online, thank you so much for the quick help
+
+spk_0: You're welcome. Is there anything else I can help with
+
+spk_1: No that's all, have a good day

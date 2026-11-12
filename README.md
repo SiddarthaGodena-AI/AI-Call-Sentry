@@ -1,5 +1,8 @@
 # AI Call Analysis & Conversation Intelligence System
 
+> **Prototype notice:** this repository is an early prototype of a call-analysis system I built at Inoday. Client recordings, transcripts and prompts have been removed; `transcripts/sample_call_synthetic.txt` is a synthetic example. The production system was deployed differently and is proprietary.
+
+
 An end-to-end AI-powered call analysis platform built with FastAPI + AWS + Vertex AI, designed to:
 
 🎧 Process audio recordings
